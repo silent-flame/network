@@ -15178,13 +15178,13 @@ main.отпр14=отпрАб4;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==5]]></Code>
+								<Code><![CDATA[agent.numAbPol==5]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==6]]></Code>
+								<Code><![CDATA[agent.numAbPol==6]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -15696,25 +15696,25 @@ main.отпр16=отпрАб6;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==1]]></Code>
+								<Code><![CDATA[agent.numKat==1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==2]]></Code>
+								<Code><![CDATA[agent.numKat==2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==3]]></Code>
+								<Code><![CDATA[agent.numKat==3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==4]]></Code>
+								<Code><![CDATA[agent.numKat==4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>

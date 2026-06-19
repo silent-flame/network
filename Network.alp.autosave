@@ -14839,7 +14839,7 @@ entity.numAbOtpr=numAbonent;]]></Code>
 							<ItemName><![CDATA[1412336243132]]></ItemName>
 						</GenericParameterSubstituteReference>
 						<GenericParameterSubstituteValue Class="CodeValue">
-							<Code><![CDATA[Agent]]></Code>
+							<Code><![CDATA[Message]]></Code>
 						</GenericParameterSubstituteValue>
 					</GenericParameterSubstitute>
 					<Parameters>
@@ -14907,10 +14907,10 @@ true);]]></Code>
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat=1;
-b=normal(dlKatO.get(entity.numKat),
-dlKat.get(entity.numKat));
-entity.dlina=(int)(b);
+								<Code><![CDATA[agent.numKat=1;
+b=normal(dlKatO.get(agent.numKat),
+dlKat.get(agent.numKat));
+agent.dlina=(int)(b);
 d1++;
 kolOtprKat1=d1/kolProg;
 editbox6.setText(kolOtprKat1, true);
@@ -14923,10 +14923,10 @@ main.editbox6.setText(main.
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat=2;
-b=normal(dlKatO.get(entity.numKat),
-dlKat.get(entity.numKat));
-entity.dlina = (int)(b);
+								<Code><![CDATA[agent.numKat=2;
+b=normal(dlKatO.get(agent.numKat),
+dlKat.get(agent.numKat));
+agent.dlina = (int)(b);
 d2++;
 kolOtprKat2=d2/kolProg;
 editbox7.setText(kolOtprKat2, true);
@@ -14939,10 +14939,10 @@ main.editbox7.setText(main.
 						<Parameter>
 							<Name><![CDATA[onExit3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat=3;
-b=normal(dlKatO.get(entity.numKat),
-dlKat.get(entity.numKat));
-entity.dlina=(int)(b);
+								<Code><![CDATA[agent.numKat=3;
+b=normal(dlKatO.get(agent.numKat),
+dlKat.get(agent.numKat));
+agent.dlina=(int)(b);
 d3++;
 kolOtprKat3=d3/kolProg;
 editbox8.setText(kolOtprKat3, true);
@@ -14955,10 +14955,10 @@ main.editbox8.setText(main.
 						<Parameter>
 							<Name><![CDATA[onExit4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat=4;
-b=normal(dlKatO.get(entity.numKat),
-dlKat.get(entity.numKat));
-entity.dlina=(int)(b);
+								<Code><![CDATA[agent.numKat=4;
+b=normal(dlKatO.get(agent.numKat),
+dlKat.get(agent.numKat));
+agent.dlina=(int)(b);
 d4++;
 kolOtprKat4=d4/kolProg;
 editbox9.setText(kolOtprKat4, true);
@@ -15040,25 +15040,25 @@ main.editbox9.setText(main.
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==1]]></Code>
+								<Code><![CDATA[agent.numAbPol==1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==2]]></Code>
+								<Code><![CDATA[agent.numAbPol==2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==3]]></Code>
+								<Code><![CDATA[agent.numAbPol==3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==4]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -15178,13 +15178,13 @@ main.отпр14=отпрАб4;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==5]]></Code>
+								<Code><![CDATA[agent.numAbPol==5]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==6]]></Code>
+								<Code><![CDATA[agent.numAbPol==6]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -15696,25 +15696,25 @@ main.отпр16=отпрАб6;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==1]]></Code>
+								<Code><![CDATA[agent.numKat==1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==2]]></Code>
+								<Code><![CDATA[agent.numKat==2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==3]]></Code>
+								<Code><![CDATA[agent.numKat==3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==4]]></Code>
+								<Code><![CDATA[agent.numKat==4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -15751,8 +15751,7 @@ main.editbox.setText(main.
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[k1++;
-kolPolKat1=k1/kolProg;
+								<Code><![CDATA[kolPolKat1=k1/kolProg;
 editbox1.setText(kolPolKat1, true);
 main.k1++;
 main.всегоПолКат1=main.k1/kolProg;
@@ -15763,8 +15762,7 @@ main.editbox1.setText(main.
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[k2++;
-kolPolKat2=k2/kolProg;
+								<Code><![CDATA[kolPolKat2=k2/kolProg;
 editbox2.setText(kolPolKat2, true);
 main.k2++;
 main.всегоПолКат2=main.k2/kolProg;
@@ -15775,8 +15773,7 @@ main.editbox2.setText(main.
 						<Parameter>
 							<Name><![CDATA[onExit3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[k3++;
-kolPolKat3=k3/kolProg;
+								<Code><![CDATA[kolPolKat3=k3/kolProg;
 editbox3.setText(kolPolKat3, true);
 main.k3++;
 main.всегоПолКат3=main.k3/kolProg;
@@ -15787,8 +15784,7 @@ main.editbox3.setText(main.
 						<Parameter>
 							<Name><![CDATA[onExit4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[k4++;
-kolPolKat4=k4/kolProg;
+								<Code><![CDATA[kolPolKat4=k4/kolProg;
 editbox4.setText(kolPolKat4, true);
 main.k4++;
 main.всегоПолКат4=main.k4/kolProg;
@@ -19109,8 +19105,9 @@ true);]]></Code>
 							<Name><![CDATA[onExit3]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[отАб3++;
-main.кПрСп31=отАб3/main.отпр31;
-main.КП]]></Code>
+main.кПрСп31=отАб4/main.отпр31;
+main.КПрСп31.setText(main.кПрСп31,
+true);]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -23996,7 +23993,7 @@ entity.numAbOtpr=numAbonent;]]></Code>
 							<ItemName><![CDATA[1412336243132]]></ItemName>
 						</GenericParameterSubstituteReference>
 						<GenericParameterSubstituteValue Class="CodeValue">
-							<Code><![CDATA[Agent]]></Code>
+							<Code><![CDATA[Message]]></Code>
 						</GenericParameterSubstituteValue>
 					</GenericParameterSubstitute>
 					<Parameters>
@@ -24064,7 +24061,7 @@ true);]]></Code>
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat=1;
+								<Code><![CDATA[agent.numKat=1;
 b=normal(dlKatO.get(entity.numKat),
 dlKat.get(entity.numKat));
 entity.dlina=(int)(b);
@@ -24722,6 +24719,9 @@ main.отпр16=отпрАб6;]]></Code>
 							<ClassName><![CDATA[Queue]]></ClassName>
 							<ItemName><![CDATA[1412336242932]]></ItemName>
 						</GenericParameterSubstituteReference>
+						<GenericParameterSubstituteValue Class="CodeValue">
+							<Code><![CDATA[Абонент]]></Code>
+						</GenericParameterSubstituteValue>
 					</GenericParameterSubstitute>
 					<Parameters>
 						<Parameter>
