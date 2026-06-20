@@ -2216,6 +2216,30 @@
 						</GenericParameterSubstituteReference>
 					</GenericParameterSubstitute>
 					<Parameters>
+						<Parameter>
+							<Name><![CDATA[kolAbonent]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[timeAbonent]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[kolProg]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[numAbonent]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[emkBuferVx]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[verKat]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[dlKat]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[dlKatO]]></Name>
+						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
 					<Replication Class="CodeValue">
@@ -2447,6 +2471,30 @@
 						</GenericParameterSubstituteReference>
 					</GenericParameterSubstitute>
 					<Parameters>
+						<Parameter>
+							<Name><![CDATA[kolAbonent]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[timeAbonent]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[kolProg]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[numAbonent]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[emkBuferVx]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[verKat]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[dlKat]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[dlKatO]]></Name>
+						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
 					<Replication Class="CodeValue">
@@ -2508,6 +2556,30 @@
 						</GenericParameterSubstituteReference>
 					</GenericParameterSubstitute>
 					<Parameters>
+						<Parameter>
+							<Name><![CDATA[kolAbonent]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[timeAbonent]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[kolProg]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[numAbonent]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[emkBuferVx]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[verKat]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[dlKat]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[dlKatO]]></Name>
+						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
 					<Replication Class="CodeValue">
@@ -2569,6 +2641,30 @@
 						</GenericParameterSubstituteReference>
 					</GenericParameterSubstitute>
 					<Parameters>
+						<Parameter>
+							<Name><![CDATA[kolAbonent]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[timeAbonent]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[kolProg]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[numAbonent]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[emkBuferVx]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[verKat]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[dlKat]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[dlKatO]]></Name>
+						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
 					<Replication Class="CodeValue">
@@ -2630,6 +2726,30 @@
 						</GenericParameterSubstituteReference>
 					</GenericParameterSubstitute>
 					<Parameters>
+						<Parameter>
+							<Name><![CDATA[kolAbonent]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[timeAbonent]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[kolProg]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[numAbonent]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[emkBuferVx]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[verKat]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[dlKat]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[dlKatO]]></Name>
+						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
 					<Replication Class="CodeValue">
@@ -2691,6 +2811,30 @@
 						</GenericParameterSubstituteReference>
 					</GenericParameterSubstitute>
 					<Parameters>
+						<Parameter>
+							<Name><![CDATA[kolAbonent]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[timeAbonent]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[kolProg]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[numAbonent]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[emkBuferVx]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[verKat]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[dlKat]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[dlKatO]]></Name>
+						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
 					<Replication Class="CodeValue">
@@ -4071,7 +4215,7 @@
 					</Bars>
 					<HistogramDataExpression>
 					<Id>1781554785388</Id>
-					<Expression><![CDATA[врПередачи]]></Expression>
+					<Expression><![CDATA[врПередСооб]]></Expression>
 						<ColorPDF>-2354116</ColorPDF>
 						<ColorCDF>-9404272</ColorCDF>
 						<ColorLowPercent>-4565549</ColorLowPercent>
@@ -4210,7 +4354,7 @@
 				<Control Type="EditBox">
 				 	<EmbeddedIcon>false</EmbeddedIcon>				
 					<Id>1781290752629</Id>
-					<Name><![CDATA[editbox15]]></Name>
+					<Name><![CDATA[editbox11]]></Name>
 					<X>314</X><Y>920</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
@@ -6955,7 +7099,7 @@
 					<Name><![CDATA[text]]></Name>
 					<X>20</X><Y>710</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -6976,7 +7120,7 @@
 					<Name><![CDATA[text1]]></Name>
 					<X>290</X><Y>715</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -7041,7 +7185,7 @@
 					<Name><![CDATA[text3]]></Name>
 					<X>20</X><Y>1275</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -7062,7 +7206,7 @@
 					<Name><![CDATA[text4]]></Name>
 					<X>180</X><Y>1275</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -7083,7 +7227,7 @@
 					<Name><![CDATA[text5]]></Name>
 					<X>195</X><Y>1295</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -7104,7 +7248,7 @@
 					<Name><![CDATA[text6]]></Name>
 					<X>265</X><Y>1295</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -7125,7 +7269,7 @@
 					<Name><![CDATA[text7]]></Name>
 					<X>340</X><Y>1295</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -7146,7 +7290,7 @@
 					<Name><![CDATA[text8]]></Name>
 					<X>410</X><Y>1295</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -7167,7 +7311,7 @@
 					<Name><![CDATA[text9]]></Name>
 					<X>20</X><Y>1360</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -7188,7 +7332,7 @@
 					<Name><![CDATA[text10]]></Name>
 					<X>185</X><Y>1360</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -7209,7 +7353,7 @@
 					<Name><![CDATA[text11]]></Name>
 					<X>335</X><Y>1375</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -7230,7 +7374,7 @@
 					<Name><![CDATA[text12]]></Name>
 					<X>195</X><Y>1375</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -7251,7 +7395,7 @@
 					<Name><![CDATA[text13]]></Name>
 					<X>405</X><Y>1375</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -7272,7 +7416,7 @@
 					<Name><![CDATA[text14]]></Name>
 					<X>265</X><Y>1375</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -7294,7 +7438,7 @@
 					<Name><![CDATA[editbox]]></Name>
 					<X>21</X><Y>1310</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
@@ -7315,7 +7459,7 @@
 					<Name><![CDATA[editbox1]]></Name>
 					<X>177</X><Y>1310</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
@@ -7336,7 +7480,7 @@
 					<Name><![CDATA[editbox2]]></Name>
 					<X>247</X><Y>1310</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
@@ -7357,7 +7501,7 @@
 					<Name><![CDATA[editbox3]]></Name>
 					<X>317</X><Y>1310</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
@@ -7378,7 +7522,7 @@
 					<Name><![CDATA[editbox4]]></Name>
 					<X>389</X><Y>1310</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
@@ -7399,7 +7543,7 @@
 					<Name><![CDATA[editbox5]]></Name>
 					<X>19</X><Y>1390</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
@@ -7420,7 +7564,7 @@
 					<Name><![CDATA[editbox6]]></Name>
 					<X>179</X><Y>1390</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
@@ -7441,7 +7585,7 @@
 					<Name><![CDATA[editbox7]]></Name>
 					<X>249</X><Y>1390</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
@@ -7462,7 +7606,7 @@
 					<Name><![CDATA[editbox8]]></Name>
 					<X>319</X><Y>1390</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
@@ -7483,7 +7627,7 @@
 					<Name><![CDATA[editbox9]]></Name>
 					<X>389</X><Y>1390</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
@@ -7503,7 +7647,7 @@
 					<Name><![CDATA[text15]]></Name>
 					<X>15</X><Y>1440</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -7524,7 +7668,7 @@
 					<Name><![CDATA[text16]]></Name>
 					<X>315</X><Y>1455</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -7545,7 +7689,7 @@
 					<Name><![CDATA[text17]]></Name>
 					<X>315</X><Y>1505</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -7566,7 +7710,7 @@
 					<Name><![CDATA[text18]]></Name>
 					<X>325</X><Y>1555</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -7588,7 +7732,7 @@
 					<Name><![CDATA[editbox13]]></Name>
 					<X>319</X><Y>1470</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
@@ -7609,7 +7753,7 @@
 					<Name><![CDATA[editbox12]]></Name>
 					<X>319</X><Y>1520</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
@@ -7627,10 +7771,10 @@
 				<Control Type="EditBox">
 				 	<EmbeddedIcon>false</EmbeddedIcon>				
 					<Id>1781288561399</Id>
-					<Name><![CDATA[editbox15]]></Name>
+					<Name><![CDATA[editbox11]]></Name>
 					<X>319</X><Y>1570</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
@@ -7650,7 +7794,7 @@
 					<Name><![CDATA[chart]]></Name>
 					<X>19</X><Y>1450</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
@@ -7851,7 +7995,7 @@
 			<Variables>
 				<Variable Class="PlainVariable">
 					<Id>1781735189947</Id>
-					<Name><![CDATA[всего_потеряно__сообщ]]></Name>
+					<Name><![CDATA[всего_потеряно_сообщ]]></Name>
 					<X>25</X><Y>810</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -7921,7 +8065,7 @@
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
-						<Type><![CDATA[double]]></Type>        
+						<Type><![CDATA[boolean]]></Type>        
 					</Properties>
 				</Variable>
 				<Variable Class="Parameter">
@@ -7941,6 +8085,7 @@
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1781735195247</Id>
+							<Label><![CDATA[storPeredKan]]></Label>
 							<EditorContolType>TEXT_BOX</EditorContolType>
 							<MinSliderValue><![CDATA[0]]></MinSliderValue>
 							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
@@ -8411,16 +8556,16 @@
 						<Parameter>
 							<Name><![CDATA[onExitTrue]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.timePered=entity.dlina/skorPeredKan;]]></Code>
+								<Code><![CDATA[agent.timePered=agent.dlina/storPeredKan;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitFalse]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[if (а==0)
-entity.timePered=entity.dlina/skorPeredKanR;
+agent.timePered=agent.dlina/storPeredKanR;
 if (а==1)
-{entity.timePered=entity.dlina/skorPeredKanR +
+{agent.timePered=agent.dlina/storPeredKanR +
 timeBklResK;
 а=0;}
 а=1;]]></Code>
@@ -8999,7 +9144,7 @@ Message m = основной_канал.get(0);
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[exponential(1/timeVosstkKan)]]></Code>
+								<Code><![CDATA[exponential(1/timeVosstKan)]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 							</Value>
 						</Parameter>
@@ -9092,29 +9237,6 @@ Message m = основной_канал.get(0);
 					<LevelVisibility>DIM_NON_CURRENT</LevelVisibility>
 
 			<Presentation>
-				<RoundedRectangle>
-					<Id>1781735116695</Id>
-					<Name><![CDATA[roundRectangle]]></Name>
-					<X>10</X><Y>752</Y>
-					<Label><X>10</X><Y>10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D</DrawMode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<ZHeight>10</ZHeight>
-					<LineWidth>1</LineWidth>
-					<LineColor>-16777216</LineColor>
-					<LineMaterial>null</LineMaterial>
-					<LineStyle>SOLID</LineStyle>
-					<Width>705</Width>
-					<Height>108</Height>
-					<Rotation>0.0</Rotation>
-					<FillColor>-1</FillColor>
-					<FillMaterial>null</FillMaterial>
-					<ArcRadius>10</ArcRadius>
-				</RoundedRectangle>
 				<Rectangle>
 					<Id>1781735704881</Id>
 					<Name><![CDATA[rectangle]]></Name>
@@ -13262,6 +13384,36 @@ kolPoterBK ++;}]]></Code>
 		<ActiveObjectClass>
 			<Id>1781737710042</Id>
 			<Name><![CDATA[Абонент1]]></Name>
+			<ExtendsReference>
+				<PackageName><![CDATA[network]]></PackageName>
+				<ClassName><![CDATA[Абонент]]></ClassName>
+			</ExtendsReference>
+			<Parameters>
+				<Parameter>
+					<Name><![CDATA[kolAbonent]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[timeAbonent]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[kolProg]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[numAbonent]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[emkBuferVx]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[verKat]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[dlKat]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[dlKatO]]></Name>
+				</Parameter>
+			</Parameters>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1781737710048</Id>
@@ -14615,10 +14767,10 @@ double b=kolAbonent;
  a=uniform();
 for (int i=1; i<(kolAbonent+1); i++)
  {if (a<=((1/kolAbonent)*b))
- entity.numAbPol=i;
+ agent.numAbPol=i;
  b=b-1;}
-entity.timeOtpr=time();
-entity.numAbOtpr=numAbonent;]]></Code>
+agent.timeOtpr=time();
+agent.numAbOtpr=numAbonent;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -14693,7 +14845,7 @@ entity.numAbOtpr=numAbonent;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol == numAbonent]]></Code>
+								<Code><![CDATA[agent.numAbPol == numAbonent]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -14838,9 +14990,6 @@ entity.numAbOtpr=numAbonent;]]></Code>
 							<ClassName><![CDATA[SelectOutput5]]></ClassName>
 							<ItemName><![CDATA[1412336243132]]></ItemName>
 						</GenericParameterSubstituteReference>
-						<GenericParameterSubstituteValue Class="CodeValue">
-							<Code><![CDATA[Message]]></Code>
-						</GenericParameterSubstituteValue>
 					</GenericParameterSubstitute>
 					<Parameters>
 						<Parameter>
@@ -15189,9 +15338,15 @@ main.отпр14=отпрАб4;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[probability1]]></Name>
@@ -15423,7 +15578,7 @@ main.отпр16=отпрАб6;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ emkBuferVx-tekEmkBuferVx>=entity.dlina]]></Code>
+								<Code><![CDATA[ emkBuferVx-tekEmkBuferVx>=agent.dlina]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -15606,7 +15761,7 @@ main.отпр16=отпрАб6;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ tekEmkBuferVx+=entity.dlina;]]></Code>
+								<Code><![CDATA[ tekEmkBuferVx+=agent.dlina;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -15615,7 +15770,7 @@ main.отпр16=отпрАб6;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ tekEmkBuferVx-=entity.dlina;]]></Code>
+								<Code><![CDATA[ tekEmkBuferVx-=agent.dlina;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -15868,20 +16023,26 @@ main.editbox4.setText(main.
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==5]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==5]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==6]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==6]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[probability1]]></Name>
@@ -16001,25 +16162,25 @@ true);]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==1]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==2]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==3]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==4]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -16060,7 +16221,8 @@ true);]]></Code>
 							<Value Class="CodeValue">
 								<Code><![CDATA[отАб3++;
 main.кПрСп31=отАб3/main.отпр31;
-main.КП]]></Code>
+main.КПрСп31.setText(main.кПрСп31,
+true);]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -16138,7 +16300,7 @@ true);]]></Code>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[врПередачи.add(time()-entity.timeOtpr);
+								<Code><![CDATA[врПередачи.add(time()-agent.timeOtpr);
 editbox11.setText(врПередачи.mean(),
 true);
 editbox12.setText(врПередачи.max(),
@@ -16150,7 +16312,7 @@ main.коэфПропСпособ=main.
 main.editbox10.setText(main.
 коэфПропСпособ, true);
 main.врПередСооб.add(time()-
-entity.timeOtpr);
+agent.timeOtpr);
 main.editbox11.setText(main.
 врПередСооб.mean(), true);
 main.editbox12.setText(main.
@@ -16315,6 +16477,36 @@ main.editbox13.setText(main.
 		<ActiveObjectClass>
 			<Id>1781737800164</Id>
 			<Name><![CDATA[Абонент2]]></Name>
+			<ExtendsReference>
+				<PackageName><![CDATA[network]]></PackageName>
+				<ClassName><![CDATA[Абонент]]></ClassName>
+			</ExtendsReference>
+			<Parameters>
+				<Parameter>
+					<Name><![CDATA[kolAbonent]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[timeAbonent]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[kolProg]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[numAbonent]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[emkBuferVx]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[verKat]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[dlKat]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[dlKatO]]></Name>
+				</Parameter>
+			</Parameters>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1781737800170</Id>
@@ -16408,9 +16600,9 @@ main.editbox13.setText(main.
 			<ConnectionsId>1781737800165</ConnectionsId>
 			<Ports>
 				<Port>
-					<Id>1781737865837</Id>
+					<Id>1781910582469</Id>
 					<Name><![CDATA[Вход]]></Name>
-					<X>1250</X><Y>380</Y>
+					<X>2255</X><Y>364</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16420,9 +16612,9 @@ main.editbox13.setText(main.
 					<CustomPort><![CDATA[false]]></CustomPort>
 				</Port>
 				<Port>
-					<Id>1781737865839</Id>
+					<Id>1781910582471</Id>
 					<Name><![CDATA[Выход]]></Name>
-					<X>1250</X><Y>340</Y>
+					<X>2255</X><Y>324</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16434,9 +16626,9 @@ main.editbox13.setText(main.
 			</Ports>
 			<Connectors>
 				<Connector>
-					<Id>1781737865841</Id>
+					<Id>1781910582473</Id>
 					<Name><![CDATA[connector]]></Name>
-					<X>685</X><Y>280</Y>
+					<X>1690</X><Y>264</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16467,9 +16659,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865843</Id>
+					<Id>1781910582475</Id>
 					<Name><![CDATA[connector1]]></Name>
-					<X>780</X><Y>280</Y>
+					<X>1785</X><Y>264</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16500,9 +16692,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865845</Id>
+					<Id>1781910582477</Id>
 					<Name><![CDATA[connector3]]></Name>
-					<X>775</X><Y>425</Y>
+					<X>1780</X><Y>409</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16533,9 +16725,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865847</Id>
+					<Id>1781910582479</Id>
 					<Name><![CDATA[connector2]]></Name>
-					<X>645</X><Y>425</Y>
+					<X>1650</X><Y>409</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16566,9 +16758,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865849</Id>
+					<Id>1781910582481</Id>
 					<Name><![CDATA[connector5]]></Name>
-					<X>795</X><Y>445</Y>
+					<X>1800</X><Y>429</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16599,9 +16791,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865851</Id>
+					<Id>1781910582483</Id>
 					<Name><![CDATA[connector6]]></Name>
-					<X>795</X><Y>465</Y>
+					<X>1800</X><Y>449</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16632,9 +16824,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865853</Id>
+					<Id>1781910582485</Id>
 					<Name><![CDATA[connector7]]></Name>
-					<X>795</X><Y>485</Y>
+					<X>1800</X><Y>469</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16665,9 +16857,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865855</Id>
+					<Id>1781910582487</Id>
 					<Name><![CDATA[connector9]]></Name>
-					<X>935</X><Y>535</Y>
+					<X>1940</X><Y>519</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16698,9 +16890,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865857</Id>
+					<Id>1781910582489</Id>
 					<Name><![CDATA[connector13]]></Name>
-					<X>935</X><Y>515</Y>
+					<X>1940</X><Y>499</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16731,9 +16923,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865859</Id>
+					<Id>1781910582491</Id>
 					<Name><![CDATA[connector14]]></Name>
-					<X>665</X><Y>445</Y>
+					<X>1670</X><Y>429</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16764,9 +16956,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865861</Id>
+					<Id>1781910582493</Id>
 					<Name><![CDATA[connector15]]></Name>
-					<X>665</X><Y>465</Y>
+					<X>1670</X><Y>449</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16797,9 +16989,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865863</Id>
+					<Id>1781910582495</Id>
 					<Name><![CDATA[connector16]]></Name>
-					<X>665</X><Y>485</Y>
+					<X>1670</X><Y>469</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16830,9 +17022,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865865</Id>
+					<Id>1781910582497</Id>
 					<Name><![CDATA[connector4]]></Name>
-					<X>795</X><Y>505</Y>
+					<X>1800</X><Y>489</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16863,9 +17055,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865867</Id>
+					<Id>1781910582499</Id>
 					<Name><![CDATA[connector8]]></Name>
-					<X>795</X><Y>425</Y>
+					<X>1800</X><Y>409</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16896,9 +17088,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865869</Id>
+					<Id>1781910582501</Id>
 					<Name><![CDATA[connector10]]></Name>
-					<X>1075</X><Y>440</Y>
+					<X>2080</X><Y>424</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16913,7 +17105,7 @@ main.editbox13.setText(main.
 						<ClassName><![CDATA[Queue]]></ClassName>
 						<ItemName><![CDATA[out]]></ItemName>
 					</SourceConnectableItemReference>
-					<TargetId>1781737865839</TargetId>
+					<TargetId>1781910582471</TargetId>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>30</X><Y>0</Y></Point>
@@ -16924,9 +17116,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865871</Id>
+					<Id>1781910582503</Id>
 					<Name><![CDATA[connector11]]></Name>
-					<X>1415</X><Y>380</Y>
+					<X>2420</X><Y>364</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16941,16 +17133,16 @@ main.editbox13.setText(main.
 						<ClassName><![CDATA[SelectOutput]]></ClassName>
 						<ItemName><![CDATA[in]]></ItemName>
 					</SourceConnectableItemReference>
-					<TargetId>1781737865837</TargetId>
+					<TargetId>1781910582469</TargetId>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>-165</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865873</Id>
+					<Id>1781910582505</Id>
 					<Name><![CDATA[connector12]]></Name>
-					<X>1425</X><Y>390</Y>
+					<X>2430</X><Y>374</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -16981,9 +17173,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865875</Id>
+					<Id>1781910582507</Id>
 					<Name><![CDATA[connector17]]></Name>
-					<X>500</X><Y>170</Y>
+					<X>1505</X><Y>154</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17014,9 +17206,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865877</Id>
+					<Id>1781910582509</Id>
 					<Name><![CDATA[connector18]]></Name>
-					<X>1080</X><Y>820</Y>
+					<X>2085</X><Y>804</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17049,9 +17241,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865879</Id>
+					<Id>1781910582511</Id>
 					<Name><![CDATA[connector19]]></Name>
-					<X>1100</X><Y>820</Y>
+					<X>2105</X><Y>804</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17082,9 +17274,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865881</Id>
+					<Id>1781910582513</Id>
 					<Name><![CDATA[connector20]]></Name>
-					<X>1100</X><Y>840</Y>
+					<X>2105</X><Y>824</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17115,9 +17307,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865883</Id>
+					<Id>1781910582515</Id>
 					<Name><![CDATA[connector21]]></Name>
-					<X>1100</X><Y>860</Y>
+					<X>2105</X><Y>844</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17148,9 +17340,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865885</Id>
+					<Id>1781910582517</Id>
 					<Name><![CDATA[connector22]]></Name>
-					<X>1100</X><Y>880</Y>
+					<X>2105</X><Y>864</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17181,9 +17373,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865887</Id>
+					<Id>1781910582519</Id>
 					<Name><![CDATA[connector23]]></Name>
-					<X>1300</X><Y>1060</Y>
+					<X>2305</X><Y>1044</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17214,9 +17406,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865889</Id>
+					<Id>1781910582521</Id>
 					<Name><![CDATA[connector24]]></Name>
-					<X>1550</X><Y>990</Y>
+					<X>2555</X><Y>974</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17247,9 +17439,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865891</Id>
+					<Id>1781910582523</Id>
 					<Name><![CDATA[connector25]]></Name>
-					<X>1550</X><Y>1010</Y>
+					<X>2555</X><Y>994</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17280,9 +17472,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865893</Id>
+					<Id>1781910582525</Id>
 					<Name><![CDATA[connector26]]></Name>
-					<X>1300</X><Y>980</Y>
+					<X>2305</X><Y>964</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17313,9 +17505,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865895</Id>
+					<Id>1781910582527</Id>
 					<Name><![CDATA[connector27]]></Name>
-					<X>1300</X><Y>1000</Y>
+					<X>2305</X><Y>984</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17346,9 +17538,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865897</Id>
+					<Id>1781910582529</Id>
 					<Name><![CDATA[connector28]]></Name>
-					<X>1300</X><Y>1020</Y>
+					<X>2305</X><Y>1004</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17379,9 +17571,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737865899</Id>
+					<Id>1781910582531</Id>
 					<Name><![CDATA[connector29]]></Name>
-					<X>1300</X><Y>1040</Y>
+					<X>2305</X><Y>1024</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17451,9 +17643,9 @@ main.editbox13.setText(main.
 			</ContainerLinks>
 			<EmbeddedObjects>
 				<EmbeddedObject>
-					<Id>1781737865575</Id>
+					<Id>1781910582207</Id>
 					<Name><![CDATA[source]]></Name>
-					<X>560</X><Y>270</Y>
+					<X>1565</X><Y>254</Y>
 					<Label><X>-10</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17668,10 +17860,10 @@ double b=kolAbonent;
  a=uniform();
 for (int i=1; i<(kolAbonent+1); i++)
  {if (a<=((1/kolAbonent)*b))
- entity.numAbPol=i;
+ agent.numAbPol=i;
  b=b-1;}
-entity.timeOtpr=time();
-entity.numAbOtpr=numAbonent;]]></Code>
+agent.timeOtpr=time();
+agent.numAbOtpr=numAbonent;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -17718,9 +17910,9 @@ entity.numAbOtpr=numAbonent;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737865631</Id>
+					<Id>1781910582263</Id>
 					<Name><![CDATA[IF]]></Name>
-					<X>675</X><Y>270</Y>
+					<X>1680</X><Y>254</Y>
 					<Label><X>-40</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17746,7 +17938,7 @@ entity.numAbOtpr=numAbonent;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol == numAbonent]]></Code>
+								<Code><![CDATA[agent.numAbPol == numAbonent]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -17805,9 +17997,9 @@ entity.numAbOtpr=numAbonent;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737865642</Id>
+					<Id>1781910582274</Id>
 					<Name><![CDATA[sink]]></Name>
-					<X>780</X><Y>270</Y>
+					<X>1785</X><Y>254</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17874,9 +18066,9 @@ entity.numAbOtpr=numAbonent;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737865648</Id>
+					<Id>1781910582280</Id>
 					<Name><![CDATA[selectOutput]]></Name>
-					<X>635</X><Y>415</Y>
+					<X>1640</X><Y>399</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -17957,10 +18149,10 @@ true);]]></Code>
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat=1;
-b=normal(dlKatO.get(entity.numKat),
-dlKat.get(entity.numKat));
-entity.dlina=(int)(b);
+								<Code><![CDATA[agent.numKat=1;
+b=normal(dlKatO.get(agent.numKat),
+dlKat.get(agent.numKat));
+agent.dlina=(int)(b);
 d1++;
 kolOtprKat1=d1/kolProg;
 editbox6.setText(kolOtprKat1, true);
@@ -17973,10 +18165,10 @@ main.editbox6.setText(main.
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat=2;
-b=normal(dlKatO.get(entity.numKat),
-dlKat.get(entity.numKat));
-entity.dlina = (int)(b);
+								<Code><![CDATA[agent.numKat=2;
+b=normal(dlKatO.get(agent.numKat),
+dlKat.get(agent.numKat));
+agent.dlina = (int)(b);
 d2++;
 kolOtprKat2=d2/kolProg;
 editbox7.setText(kolOtprKat2, true);
@@ -17989,10 +18181,10 @@ main.editbox7.setText(main.
 						<Parameter>
 							<Name><![CDATA[onExit3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat=3;
-b=normal(dlKatO.get(entity.numKat),
-dlKat.get(entity.numKat));
-entity.dlina=(int)(b);
+								<Code><![CDATA[agent.numKat=3;
+b=normal(dlKatO.get(agent.numKat),
+dlKat.get(agent.numKat));
+agent.dlina=(int)(b);
 d3++;
 kolOtprKat3=d3/kolProg;
 editbox8.setText(kolOtprKat3, true);
@@ -18005,10 +18197,10 @@ main.editbox8.setText(main.
 						<Parameter>
 							<Name><![CDATA[onExit4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat=4;
-b=normal(dlKatO.get(entity.numKat),
-dlKat.get(entity.numKat));
-entity.dlina=(int)(b);
+								<Code><![CDATA[agent.numKat=4;
+b=normal(dlKatO.get(agent.numKat),
+dlKat.get(agent.numKat));
+agent.dlina=(int)(b);
 d4++;
 kolOtprKat4=d4/kolProg;
 editbox9.setText(kolOtprKat4, true);
@@ -18062,9 +18254,9 @@ main.editbox9.setText(main.
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737865669</Id>
+					<Id>1781910582301</Id>
 					<Name><![CDATA[selectOutput1]]></Name>
-					<X>765</X><Y>415</Y>
+					<X>1770</X><Y>399</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18090,25 +18282,25 @@ main.editbox9.setText(main.
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==1]]></Code>
+								<Code><![CDATA[agent.numAbPol==1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==2]]></Code>
+								<Code><![CDATA[agent.numAbPol==2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==3]]></Code>
+								<Code><![CDATA[agent.numAbPol==3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==4]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -18134,13 +18326,13 @@ main.editbox9.setText(main.
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[отпрАб1++;
-main.отпр21=отпрАб1;]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[отпрАб2++;
+main.отпр12=отпрАб2;]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit3]]></Name>
@@ -18200,9 +18392,9 @@ main.отпр14=отпрАб4;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737865690</Id>
+					<Id>1781910582322</Id>
 					<Name><![CDATA[selectOutput2]]></Name>
-					<X>905</X><Y>505</Y>
+					<X>1910</X><Y>489</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18228,20 +18420,26 @@ main.отпр14=отпрАб4;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==5]]></Code>
+								<Code><![CDATA[agent.numAbPol==5]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==6]]></Code>
+								<Code><![CDATA[agent.numAbPol==6]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[probability1]]></Name>
@@ -18328,9 +18526,9 @@ main.отпр16=отпрАб6;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737865711</Id>
+					<Id>1781910582343</Id>
 					<Name><![CDATA[Буфер]]></Name>
-					<X>1035</X><Y>420</Y>
+					<X>2040</X><Y>404</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18442,9 +18640,9 @@ main.отпр16=отпрАб6;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737865732</Id>
+					<Id>1781910582364</Id>
 					<Name><![CDATA[selectOutput3]]></Name>
-					<X>1405</X><Y>370</Y>
+					<X>2410</X><Y>354</Y>
 					<Label><X>-40</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18473,7 +18671,7 @@ main.отпр16=отпрАб6;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ emkBuferVx-tekEmkBuferVx>=entity.dlina]]></Code>
+								<Code><![CDATA[ emkBuferVx-tekEmkBuferVx>=agent.dlina]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -18532,9 +18730,9 @@ main.отпр16=отпрАб6;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737865743</Id>
+					<Id>1781910582375</Id>
 					<Name><![CDATA[sink1]]></Name>
-					<X>1425</X><Y>545</Y>
+					<X>2430</X><Y>529</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18598,9 +18796,9 @@ main.отпр16=отпрАб6;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737865749</Id>
+					<Id>1781910582381</Id>
 					<Name><![CDATA[БуферВх]]></Name>
-					<X>1510</X><Y>360</Y>
+					<X>2515</X><Y>344</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18656,7 +18854,7 @@ main.отпр16=отпрАб6;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ tekEmkBuferVx+=entity.dlina;]]></Code>
+								<Code><![CDATA[ tekEmkBuferVx+=agent.dlina;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -18665,7 +18863,7 @@ main.отпр16=отпрАб6;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ tekEmkBuferVx-=entity.dlina;]]></Code>
+								<Code><![CDATA[ tekEmkBuferVx-=agent.dlina;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -18718,9 +18916,9 @@ main.отпр16=отпрАб6;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737865770</Id>
+					<Id>1781910582402</Id>
 					<Name><![CDATA[selectOutput4]]></Name>
-					<X>1070</X><Y>810</Y>
+					<X>2075</X><Y>794</Y>
 					<Label><X>-44</X><Y>-24</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18746,25 +18944,25 @@ main.отпр16=отпрАб6;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==1]]></Code>
+								<Code><![CDATA[agent.numKat==1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==2]]></Code>
+								<Code><![CDATA[agent.numKat==2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==3]]></Code>
+								<Code><![CDATA[agent.numKat==3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==4]]></Code>
+								<Code><![CDATA[agent.numKat==4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -18890,9 +19088,9 @@ main.editbox4.setText(main.
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737865791</Id>
+					<Id>1781910582423</Id>
 					<Name><![CDATA[selectOutput6]]></Name>
-					<X>1520</X><Y>980</Y>
+					<X>2525</X><Y>964</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -18918,20 +19116,26 @@ main.editbox4.setText(main.
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==5]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==5]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==6]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==6]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[probability1]]></Name>
@@ -19023,9 +19227,9 @@ true);]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737865812</Id>
+					<Id>1781910582444</Id>
 					<Name><![CDATA[selectOutput5]]></Name>
-					<X>1270</X><Y>970</Y>
+					<X>2275</X><Y>954</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19051,25 +19255,25 @@ true);]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==1]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==2]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==3]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==4]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -19095,21 +19299,21 @@ true);]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[отАб1++;
-main.кПрСп12=отАб1/main.отпр12;
-main.КПрСп12.setText(main.кПрСп12,
-true);]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[отАб2++;
+main.кПрСп21=отАб2/main.отпр21;
+main.КПрСп21.setText(main.кПрСп21,
+true);]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit3]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[отАб3++;
-main.кПрСп31=отАб4/main.отпр31;
+main.кПрСп31=отАб3/main.отпр31;
 main.КПрСп31.setText(main.кПрСп31,
 true);]]></Code>
 							</Value>
@@ -19167,9 +19371,9 @@ true);]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737865833</Id>
+					<Id>1781910582465</Id>
 					<Name><![CDATA[sink2]]></Name>
-					<X>1750</X><Y>880</Y>
+					<X>2755</X><Y>864</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19189,7 +19393,7 @@ true);]]></Code>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[врПередачи.add(time()-entity.timeOtpr);
+								<Code><![CDATA[врПередачи.add(time()-agent.timeOtpr);
 editbox11.setText(врПередачи.mean(),
 true);
 editbox12.setText(врПередачи.max(),
@@ -19201,7 +19405,7 @@ main.коэфПропСпособ=main.
 main.editbox10.setText(main.
 коэфПропСпособ, true);
 main.врПередСооб.add(time()-
-entity.timeOtpr);
+agent.timeOtpr);
 main.editbox11.setText(main.
 врПередСооб.mean(), true);
 main.editbox12.setText(main.
@@ -19270,11 +19474,11 @@ main.editbox13.setText(main.
 
 			<Presentation>
 				<Text>
-					<Id>1781737865565</Id>
+					<Id>1781910582197</Id>
 					<Name><![CDATA[text20]]></Name>
-					<X>850</X><Y>180</Y>
+					<X>1855</X><Y>164</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -19291,9 +19495,9 @@ main.editbox13.setText(main.
 					<Alignment>LEFT</Alignment>
 				</Text>
 				<Rectangle>
-					<Id>1781737865567</Id>
+					<Id>1781910582199</Id>
 					<Name><![CDATA[rectangle]]></Name>
-					<X>240</X><Y>130</Y>
+					<X>1245</X><Y>114</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19313,9 +19517,9 @@ main.editbox13.setText(main.
 					<FillMaterial>null</FillMaterial>
 				</Rectangle>
 				<RoundedRectangle>
-					<Id>1781737865569</Id>
+					<Id>1781910582201</Id>
 					<Name><![CDATA[roundRectangle1]]></Name>
-					<X>1150</X><Y>290</Y>
+					<X>2155</X><Y>274</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19336,11 +19540,11 @@ main.editbox13.setText(main.
 					<ArcRadius>10</ArcRadius>
 				</RoundedRectangle>
 				<Text>
-					<Id>1781737865571</Id>
+					<Id>1781910582203</Id>
 					<Name><![CDATA[text19]]></Name>
-					<X>705</X><Y>205</Y>
+					<X>1710</X><Y>189</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -19366,6 +19570,36 @@ main.editbox13.setText(main.
 		<ActiveObjectClass>
 			<Id>1781737810145</Id>
 			<Name><![CDATA[Абонент3]]></Name>
+			<ExtendsReference>
+				<PackageName><![CDATA[network]]></PackageName>
+				<ClassName><![CDATA[Абонент]]></ClassName>
+			</ExtendsReference>
+			<Parameters>
+				<Parameter>
+					<Name><![CDATA[kolAbonent]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[timeAbonent]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[kolProg]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[numAbonent]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[emkBuferVx]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[verKat]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[dlKat]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[dlKatO]]></Name>
+				</Parameter>
+			</Parameters>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1781737810151</Id>
@@ -19459,9 +19693,9 @@ main.editbox13.setText(main.
 			<ConnectionsId>1781737810146</ConnectionsId>
 			<Ports>
 				<Port>
-					<Id>1781737881112</Id>
+					<Id>1781910594034</Id>
 					<Name><![CDATA[Вход]]></Name>
-					<X>1090</X><Y>310</Y>
+					<X>2040</X><Y>978</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19471,9 +19705,9 @@ main.editbox13.setText(main.
 					<CustomPort><![CDATA[false]]></CustomPort>
 				</Port>
 				<Port>
-					<Id>1781737881114</Id>
+					<Id>1781910594036</Id>
 					<Name><![CDATA[Выход]]></Name>
-					<X>1090</X><Y>270</Y>
+					<X>2040</X><Y>938</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19485,9 +19719,9 @@ main.editbox13.setText(main.
 			</Ports>
 			<Connectors>
 				<Connector>
-					<Id>1781737881116</Id>
+					<Id>1781910594038</Id>
 					<Name><![CDATA[connector]]></Name>
-					<X>525</X><Y>210</Y>
+					<X>1475</X><Y>878</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19518,9 +19752,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881118</Id>
+					<Id>1781910594040</Id>
 					<Name><![CDATA[connector1]]></Name>
-					<X>620</X><Y>210</Y>
+					<X>1570</X><Y>878</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19551,9 +19785,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881120</Id>
+					<Id>1781910594042</Id>
 					<Name><![CDATA[connector3]]></Name>
-					<X>615</X><Y>355</Y>
+					<X>1565</X><Y>1023</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19584,9 +19818,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881122</Id>
+					<Id>1781910594044</Id>
 					<Name><![CDATA[connector2]]></Name>
-					<X>485</X><Y>355</Y>
+					<X>1435</X><Y>1023</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19617,9 +19851,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881124</Id>
+					<Id>1781910594046</Id>
 					<Name><![CDATA[connector5]]></Name>
-					<X>635</X><Y>375</Y>
+					<X>1585</X><Y>1043</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19650,9 +19884,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881126</Id>
+					<Id>1781910594048</Id>
 					<Name><![CDATA[connector6]]></Name>
-					<X>635</X><Y>395</Y>
+					<X>1585</X><Y>1063</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19683,9 +19917,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881128</Id>
+					<Id>1781910594050</Id>
 					<Name><![CDATA[connector7]]></Name>
-					<X>635</X><Y>415</Y>
+					<X>1585</X><Y>1083</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19716,9 +19950,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881130</Id>
+					<Id>1781910594052</Id>
 					<Name><![CDATA[connector9]]></Name>
-					<X>775</X><Y>465</Y>
+					<X>1725</X><Y>1133</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19749,9 +19983,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881132</Id>
+					<Id>1781910594054</Id>
 					<Name><![CDATA[connector13]]></Name>
-					<X>775</X><Y>445</Y>
+					<X>1725</X><Y>1113</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19782,9 +20016,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881134</Id>
+					<Id>1781910594056</Id>
 					<Name><![CDATA[connector14]]></Name>
-					<X>505</X><Y>375</Y>
+					<X>1455</X><Y>1043</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19815,9 +20049,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881136</Id>
+					<Id>1781910594058</Id>
 					<Name><![CDATA[connector15]]></Name>
-					<X>505</X><Y>395</Y>
+					<X>1455</X><Y>1063</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19848,9 +20082,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881138</Id>
+					<Id>1781910594060</Id>
 					<Name><![CDATA[connector16]]></Name>
-					<X>505</X><Y>415</Y>
+					<X>1455</X><Y>1083</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19881,9 +20115,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881140</Id>
+					<Id>1781910594062</Id>
 					<Name><![CDATA[connector4]]></Name>
-					<X>635</X><Y>435</Y>
+					<X>1585</X><Y>1103</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19914,9 +20148,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881142</Id>
+					<Id>1781910594064</Id>
 					<Name><![CDATA[connector8]]></Name>
-					<X>635</X><Y>355</Y>
+					<X>1585</X><Y>1023</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19947,9 +20181,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881144</Id>
+					<Id>1781910594066</Id>
 					<Name><![CDATA[connector10]]></Name>
-					<X>915</X><Y>370</Y>
+					<X>1865</X><Y>1038</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19964,7 +20198,7 @@ main.editbox13.setText(main.
 						<ClassName><![CDATA[Queue]]></ClassName>
 						<ItemName><![CDATA[out]]></ItemName>
 					</SourceConnectableItemReference>
-					<TargetId>1781737881114</TargetId>
+					<TargetId>1781910594036</TargetId>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>30</X><Y>0</Y></Point>
@@ -19975,9 +20209,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881146</Id>
+					<Id>1781910594068</Id>
 					<Name><![CDATA[connector11]]></Name>
-					<X>1255</X><Y>310</Y>
+					<X>2205</X><Y>978</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -19992,16 +20226,16 @@ main.editbox13.setText(main.
 						<ClassName><![CDATA[SelectOutput]]></ClassName>
 						<ItemName><![CDATA[in]]></ItemName>
 					</SourceConnectableItemReference>
-					<TargetId>1781737881112</TargetId>
+					<TargetId>1781910594034</TargetId>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>-165</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881148</Id>
+					<Id>1781910594070</Id>
 					<Name><![CDATA[connector12]]></Name>
-					<X>1265</X><Y>320</Y>
+					<X>2215</X><Y>988</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20032,9 +20266,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881150</Id>
+					<Id>1781910594072</Id>
 					<Name><![CDATA[connector17]]></Name>
-					<X>340</X><Y>100</Y>
+					<X>1290</X><Y>768</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20065,9 +20299,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881152</Id>
+					<Id>1781910594074</Id>
 					<Name><![CDATA[connector18]]></Name>
-					<X>920</X><Y>750</Y>
+					<X>1870</X><Y>1418</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20100,9 +20334,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881154</Id>
+					<Id>1781910594076</Id>
 					<Name><![CDATA[connector19]]></Name>
-					<X>940</X><Y>750</Y>
+					<X>1890</X><Y>1418</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20133,9 +20367,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881156</Id>
+					<Id>1781910594078</Id>
 					<Name><![CDATA[connector20]]></Name>
-					<X>940</X><Y>770</Y>
+					<X>1890</X><Y>1438</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20166,9 +20400,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881158</Id>
+					<Id>1781910594080</Id>
 					<Name><![CDATA[connector21]]></Name>
-					<X>940</X><Y>790</Y>
+					<X>1890</X><Y>1458</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20199,9 +20433,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881160</Id>
+					<Id>1781910594082</Id>
 					<Name><![CDATA[connector22]]></Name>
-					<X>940</X><Y>810</Y>
+					<X>1890</X><Y>1478</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20232,9 +20466,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881162</Id>
+					<Id>1781910594084</Id>
 					<Name><![CDATA[connector23]]></Name>
-					<X>1140</X><Y>990</Y>
+					<X>2090</X><Y>1658</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20265,9 +20499,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881164</Id>
+					<Id>1781910594086</Id>
 					<Name><![CDATA[connector24]]></Name>
-					<X>1390</X><Y>920</Y>
+					<X>2340</X><Y>1588</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20298,9 +20532,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881166</Id>
+					<Id>1781910594088</Id>
 					<Name><![CDATA[connector25]]></Name>
-					<X>1390</X><Y>940</Y>
+					<X>2340</X><Y>1608</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20331,9 +20565,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881168</Id>
+					<Id>1781910594090</Id>
 					<Name><![CDATA[connector26]]></Name>
-					<X>1140</X><Y>910</Y>
+					<X>2090</X><Y>1578</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20364,9 +20598,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881170</Id>
+					<Id>1781910594092</Id>
 					<Name><![CDATA[connector27]]></Name>
-					<X>1140</X><Y>930</Y>
+					<X>2090</X><Y>1598</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20397,9 +20631,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881172</Id>
+					<Id>1781910594094</Id>
 					<Name><![CDATA[connector28]]></Name>
-					<X>1140</X><Y>950</Y>
+					<X>2090</X><Y>1618</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20430,9 +20664,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737881174</Id>
+					<Id>1781910594096</Id>
 					<Name><![CDATA[connector29]]></Name>
-					<X>1140</X><Y>970</Y>
+					<X>2090</X><Y>1638</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20502,9 +20736,9 @@ main.editbox13.setText(main.
 			</ContainerLinks>
 			<EmbeddedObjects>
 				<EmbeddedObject>
-					<Id>1781737880850</Id>
+					<Id>1781910593772</Id>
 					<Name><![CDATA[source]]></Name>
-					<X>400</X><Y>200</Y>
+					<X>1350</X><Y>868</Y>
 					<Label><X>-10</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20719,10 +20953,10 @@ double b=kolAbonent;
  a=uniform();
 for (int i=1; i<(kolAbonent+1); i++)
  {if (a<=((1/kolAbonent)*b))
- entity.numAbPol=i;
+ agent.numAbPol=i;
  b=b-1;}
-entity.timeOtpr=time();
-entity.numAbOtpr=numAbonent;]]></Code>
+agent.timeOtpr=time();
+agent.numAbOtpr=numAbonent;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -20769,9 +21003,9 @@ entity.numAbOtpr=numAbonent;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737880906</Id>
+					<Id>1781910593828</Id>
 					<Name><![CDATA[IF]]></Name>
-					<X>515</X><Y>200</Y>
+					<X>1465</X><Y>868</Y>
 					<Label><X>-40</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20797,7 +21031,7 @@ entity.numAbOtpr=numAbonent;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol == numAbonent]]></Code>
+								<Code><![CDATA[agent.numAbPol == numAbonent]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -20856,9 +21090,9 @@ entity.numAbOtpr=numAbonent;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737880917</Id>
+					<Id>1781910593839</Id>
 					<Name><![CDATA[sink]]></Name>
-					<X>620</X><Y>200</Y>
+					<X>1570</X><Y>868</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20925,9 +21159,9 @@ entity.numAbOtpr=numAbonent;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737880923</Id>
+					<Id>1781910593845</Id>
 					<Name><![CDATA[selectOutput]]></Name>
-					<X>475</X><Y>345</Y>
+					<X>1425</X><Y>1013</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -20942,9 +21176,6 @@ entity.numAbOtpr=numAbonent;]]></Code>
 							<ClassName><![CDATA[SelectOutput5]]></ClassName>
 							<ItemName><![CDATA[1412336243132]]></ItemName>
 						</GenericParameterSubstituteReference>
-						<GenericParameterSubstituteValue Class="CodeValue">
-							<Code><![CDATA[Agent]]></Code>
-						</GenericParameterSubstituteValue>
 					</GenericParameterSubstitute>
 					<Parameters>
 						<Parameter>
@@ -21011,10 +21242,10 @@ true);]]></Code>
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat=1;
-b=normal(dlKatO.get(entity.numKat),
-dlKat.get(entity.numKat));
-entity.dlina=(int)(b);
+								<Code><![CDATA[agent.numKat=1;
+b=normal(dlKatO.get(agent.numKat),
+dlKat.get(agent.numKat));
+agent.dlina=(int)(b);
 d1++;
 kolOtprKat1=d1/kolProg;
 editbox6.setText(kolOtprKat1, true);
@@ -21027,10 +21258,10 @@ main.editbox6.setText(main.
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat=2;
-b=normal(dlKatO.get(entity.numKat),
-dlKat.get(entity.numKat));
-entity.dlina = (int)(b);
+								<Code><![CDATA[agent.numKat=2;
+b=normal(dlKatO.get(agent.numKat),
+dlKat.get(agent.numKat));
+agent.dlina = (int)(b);
 d2++;
 kolOtprKat2=d2/kolProg;
 editbox7.setText(kolOtprKat2, true);
@@ -21043,10 +21274,10 @@ main.editbox7.setText(main.
 						<Parameter>
 							<Name><![CDATA[onExit3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat=3;
-b=normal(dlKatO.get(entity.numKat),
-dlKat.get(entity.numKat));
-entity.dlina=(int)(b);
+								<Code><![CDATA[agent.numKat=3;
+b=normal(dlKatO.get(agent.numKat),
+dlKat.get(agent.numKat));
+agent.dlina=(int)(b);
 d3++;
 kolOtprKat3=d3/kolProg;
 editbox8.setText(kolOtprKat3, true);
@@ -21059,10 +21290,10 @@ main.editbox8.setText(main.
 						<Parameter>
 							<Name><![CDATA[onExit4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat=4;
-b=normal(dlKatO.get(entity.numKat),
-dlKat.get(entity.numKat));
-entity.dlina=(int)(b);
+								<Code><![CDATA[agent.numKat=4;
+b=normal(dlKatO.get(agent.numKat),
+dlKat.get(agent.numKat));
+agent.dlina=(int)(b);
 d4++;
 kolOtprKat4=d4/kolProg;
 editbox9.setText(kolOtprKat4, true);
@@ -21116,9 +21347,9 @@ main.editbox9.setText(main.
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737880944</Id>
+					<Id>1781910593866</Id>
 					<Name><![CDATA[selectOutput1]]></Name>
-					<X>605</X><Y>345</Y>
+					<X>1555</X><Y>1013</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21144,25 +21375,25 @@ main.editbox9.setText(main.
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==1]]></Code>
+								<Code><![CDATA[agent.numAbPol==1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==2]]></Code>
+								<Code><![CDATA[agent.numAbPol==2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==3]]></Code>
+								<Code><![CDATA[agent.numAbPol==3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==4]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -21188,10 +21419,6 @@ main.editbox9.setText(main.
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[отпрАб1++;
-main.отпр31=отпрАб1;]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
@@ -21202,6 +21429,10 @@ main.отпр12=отпрАб2;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit3]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[отпрАб3++;
+main.отпр13=отпрАб3;]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit4]]></Name>
@@ -21254,9 +21485,9 @@ main.отпр14=отпрАб4;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737880965</Id>
+					<Id>1781910593887</Id>
 					<Name><![CDATA[selectOutput2]]></Name>
-					<X>745</X><Y>435</Y>
+					<X>1695</X><Y>1103</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21282,20 +21513,26 @@ main.отпр14=отпрАб4;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==5]]></Code>
+								<Code><![CDATA[agent.numAbPol==5]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==6]]></Code>
+								<Code><![CDATA[agent.numAbPol==6]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[probability1]]></Name>
@@ -21382,9 +21619,9 @@ main.отпр16=отпрАб6;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737880986</Id>
+					<Id>1781910593908</Id>
 					<Name><![CDATA[Буфер]]></Name>
-					<X>875</X><Y>350</Y>
+					<X>1825</X><Y>1018</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21496,9 +21733,9 @@ main.отпр16=отпрАб6;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737881007</Id>
+					<Id>1781910593929</Id>
 					<Name><![CDATA[selectOutput3]]></Name>
-					<X>1245</X><Y>300</Y>
+					<X>2195</X><Y>968</Y>
 					<Label><X>-40</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21527,7 +21764,7 @@ main.отпр16=отпрАб6;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ emkBuferVx-tekEmkBuferVx>=entity.dlina]]></Code>
+								<Code><![CDATA[ emkBuferVx-tekEmkBuferVx>=agent.dlina]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -21586,9 +21823,9 @@ main.отпр16=отпрАб6;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737881018</Id>
+					<Id>1781910593940</Id>
 					<Name><![CDATA[sink1]]></Name>
-					<X>1265</X><Y>475</Y>
+					<X>2215</X><Y>1143</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21652,9 +21889,9 @@ main.отпр16=отпрАб6;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737881024</Id>
+					<Id>1781910593946</Id>
 					<Name><![CDATA[БуферВх]]></Name>
-					<X>1350</X><Y>290</Y>
+					<X>2300</X><Y>958</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21710,7 +21947,7 @@ main.отпр16=отпрАб6;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ tekEmkBuferVx+=entity.dlina;]]></Code>
+								<Code><![CDATA[ tekEmkBuferVx+=agent.dlina;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -21719,7 +21956,7 @@ main.отпр16=отпрАб6;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ tekEmkBuferVx-=entity.dlina;]]></Code>
+								<Code><![CDATA[ tekEmkBuferVx-=agent.dlina;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -21772,9 +22009,9 @@ main.отпр16=отпрАб6;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737881045</Id>
+					<Id>1781910593967</Id>
 					<Name><![CDATA[selectOutput4]]></Name>
-					<X>910</X><Y>740</Y>
+					<X>1860</X><Y>1408</Y>
 					<Label><X>-44</X><Y>-24</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21800,25 +22037,25 @@ main.отпр16=отпрАб6;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==1]]></Code>
+								<Code><![CDATA[agent.numKat==1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==2]]></Code>
+								<Code><![CDATA[agent.numKat==2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==3]]></Code>
+								<Code><![CDATA[agent.numKat==3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==4]]></Code>
+								<Code><![CDATA[agent.numKat==4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -21944,9 +22181,9 @@ main.editbox4.setText(main.
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737881066</Id>
+					<Id>1781910593988</Id>
 					<Name><![CDATA[selectOutput6]]></Name>
-					<X>1360</X><Y>910</Y>
+					<X>2310</X><Y>1578</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -21972,20 +22209,26 @@ main.editbox4.setText(main.
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==5]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==5]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==6]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==6]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[probability1]]></Name>
@@ -22077,9 +22320,9 @@ true);]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737881087</Id>
+					<Id>1781910594009</Id>
 					<Name><![CDATA[selectOutput5]]></Name>
-					<X>1110</X><Y>900</Y>
+					<X>2060</X><Y>1568</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22105,25 +22348,25 @@ true);]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==1]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==2]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==3]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==4]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -22149,12 +22392,6 @@ true);]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[отАб1++;
-main.кПрСп13=отАб1/main.отпр13;
-main.КПрСп13.setText(main.кПрСп13,
-true);]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
@@ -22167,6 +22404,12 @@ true);]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit3]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[отАб3++;
+main.кПрСп31=отАб3/main.отпр31;
+main.КПрСп31.setText(main.кПрСп31,
+true);]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit4]]></Name>
@@ -22221,9 +22464,9 @@ true);]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737881108</Id>
+					<Id>1781910594030</Id>
 					<Name><![CDATA[sink2]]></Name>
-					<X>1590</X><Y>810</Y>
+					<X>2540</X><Y>1478</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22243,7 +22486,7 @@ true);]]></Code>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[врПередачи.add(time()-entity.timeOtpr);
+								<Code><![CDATA[врПередачи.add(time()-agent.timeOtpr);
 editbox11.setText(врПередачи.mean(),
 true);
 editbox12.setText(врПередачи.max(),
@@ -22255,7 +22498,7 @@ main.коэфПропСпособ=main.
 main.editbox10.setText(main.
 коэфПропСпособ, true);
 main.врПередСооб.add(time()-
-entity.timeOtpr);
+agent.timeOtpr);
 main.editbox11.setText(main.
 врПередСооб.mean(), true);
 main.editbox12.setText(main.
@@ -22324,11 +22567,11 @@ main.editbox13.setText(main.
 
 			<Presentation>
 				<Text>
-					<Id>1781737880840</Id>
+					<Id>1781910593762</Id>
 					<Name><![CDATA[text20]]></Name>
-					<X>690</X><Y>110</Y>
+					<X>1640</X><Y>778</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -22345,9 +22588,9 @@ main.editbox13.setText(main.
 					<Alignment>LEFT</Alignment>
 				</Text>
 				<Rectangle>
-					<Id>1781737880842</Id>
+					<Id>1781910593764</Id>
 					<Name><![CDATA[rectangle]]></Name>
-					<X>80</X><Y>60</Y>
+					<X>1030</X><Y>728</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22367,9 +22610,9 @@ main.editbox13.setText(main.
 					<FillMaterial>null</FillMaterial>
 				</Rectangle>
 				<RoundedRectangle>
-					<Id>1781737880844</Id>
+					<Id>1781910593766</Id>
 					<Name><![CDATA[roundRectangle1]]></Name>
-					<X>990</X><Y>220</Y>
+					<X>1940</X><Y>888</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22390,11 +22633,11 @@ main.editbox13.setText(main.
 					<ArcRadius>10</ArcRadius>
 				</RoundedRectangle>
 				<Text>
-					<Id>1781737880846</Id>
+					<Id>1781910593768</Id>
 					<Name><![CDATA[text19]]></Name>
-					<X>545</X><Y>135</Y>
+					<X>1495</X><Y>803</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -22420,6 +22663,36 @@ main.editbox13.setText(main.
 		<ActiveObjectClass>
 			<Id>1781737820092</Id>
 			<Name><![CDATA[Абонент4]]></Name>
+			<ExtendsReference>
+				<PackageName><![CDATA[network]]></PackageName>
+				<ClassName><![CDATA[Абонент]]></ClassName>
+			</ExtendsReference>
+			<Parameters>
+				<Parameter>
+					<Name><![CDATA[kolAbonent]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[timeAbonent]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[kolProg]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[numAbonent]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[emkBuferVx]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[verKat]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[dlKat]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[dlKatO]]></Name>
+				</Parameter>
+			</Parameters>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1781737820098</Id>
@@ -22513,9 +22786,9 @@ main.editbox13.setText(main.
 			<ConnectionsId>1781737820093</ConnectionsId>
 			<Ports>
 				<Port>
-					<Id>1781737891519</Id>
+					<Id>1781910603223</Id>
 					<Name><![CDATA[Вход]]></Name>
-					<X>1160</X><Y>400</Y>
+					<X>1995</X><Y>972</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22525,9 +22798,9 @@ main.editbox13.setText(main.
 					<CustomPort><![CDATA[false]]></CustomPort>
 				</Port>
 				<Port>
-					<Id>1781737891521</Id>
+					<Id>1781910603225</Id>
 					<Name><![CDATA[Выход]]></Name>
-					<X>1160</X><Y>360</Y>
+					<X>1995</X><Y>932</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22539,9 +22812,9 @@ main.editbox13.setText(main.
 			</Ports>
 			<Connectors>
 				<Connector>
-					<Id>1781737891523</Id>
+					<Id>1781910603227</Id>
 					<Name><![CDATA[connector]]></Name>
-					<X>595</X><Y>300</Y>
+					<X>1430</X><Y>872</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22572,9 +22845,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891525</Id>
+					<Id>1781910603229</Id>
 					<Name><![CDATA[connector1]]></Name>
-					<X>690</X><Y>300</Y>
+					<X>1525</X><Y>872</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22605,9 +22878,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891527</Id>
+					<Id>1781910603231</Id>
 					<Name><![CDATA[connector3]]></Name>
-					<X>685</X><Y>445</Y>
+					<X>1520</X><Y>1017</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22638,9 +22911,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891529</Id>
+					<Id>1781910603233</Id>
 					<Name><![CDATA[connector2]]></Name>
-					<X>555</X><Y>445</Y>
+					<X>1390</X><Y>1017</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22671,9 +22944,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891531</Id>
+					<Id>1781910603235</Id>
 					<Name><![CDATA[connector5]]></Name>
-					<X>705</X><Y>465</Y>
+					<X>1540</X><Y>1037</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22704,9 +22977,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891533</Id>
+					<Id>1781910603237</Id>
 					<Name><![CDATA[connector6]]></Name>
-					<X>705</X><Y>485</Y>
+					<X>1540</X><Y>1057</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22737,9 +23010,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891535</Id>
+					<Id>1781910603239</Id>
 					<Name><![CDATA[connector7]]></Name>
-					<X>705</X><Y>505</Y>
+					<X>1540</X><Y>1077</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22770,9 +23043,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891537</Id>
+					<Id>1781910603241</Id>
 					<Name><![CDATA[connector9]]></Name>
-					<X>845</X><Y>555</Y>
+					<X>1680</X><Y>1127</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22803,9 +23076,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891539</Id>
+					<Id>1781910603243</Id>
 					<Name><![CDATA[connector13]]></Name>
-					<X>845</X><Y>535</Y>
+					<X>1680</X><Y>1107</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22836,9 +23109,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891541</Id>
+					<Id>1781910603245</Id>
 					<Name><![CDATA[connector14]]></Name>
-					<X>575</X><Y>465</Y>
+					<X>1410</X><Y>1037</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22869,9 +23142,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891543</Id>
+					<Id>1781910603247</Id>
 					<Name><![CDATA[connector15]]></Name>
-					<X>575</X><Y>485</Y>
+					<X>1410</X><Y>1057</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22902,9 +23175,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891545</Id>
+					<Id>1781910603249</Id>
 					<Name><![CDATA[connector16]]></Name>
-					<X>575</X><Y>505</Y>
+					<X>1410</X><Y>1077</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22935,9 +23208,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891547</Id>
+					<Id>1781910603251</Id>
 					<Name><![CDATA[connector4]]></Name>
-					<X>705</X><Y>525</Y>
+					<X>1540</X><Y>1097</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22968,9 +23241,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891549</Id>
+					<Id>1781910603253</Id>
 					<Name><![CDATA[connector8]]></Name>
-					<X>705</X><Y>445</Y>
+					<X>1540</X><Y>1017</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23001,9 +23274,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891551</Id>
+					<Id>1781910603255</Id>
 					<Name><![CDATA[connector10]]></Name>
-					<X>985</X><Y>460</Y>
+					<X>1820</X><Y>1032</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23018,7 +23291,7 @@ main.editbox13.setText(main.
 						<ClassName><![CDATA[Queue]]></ClassName>
 						<ItemName><![CDATA[out]]></ItemName>
 					</SourceConnectableItemReference>
-					<TargetId>1781737891521</TargetId>
+					<TargetId>1781910603225</TargetId>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>30</X><Y>0</Y></Point>
@@ -23029,9 +23302,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891553</Id>
+					<Id>1781910603257</Id>
 					<Name><![CDATA[connector11]]></Name>
-					<X>1325</X><Y>400</Y>
+					<X>2160</X><Y>972</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23046,16 +23319,16 @@ main.editbox13.setText(main.
 						<ClassName><![CDATA[SelectOutput]]></ClassName>
 						<ItemName><![CDATA[in]]></ItemName>
 					</SourceConnectableItemReference>
-					<TargetId>1781737891519</TargetId>
+					<TargetId>1781910603223</TargetId>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>-165</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891555</Id>
+					<Id>1781910603259</Id>
 					<Name><![CDATA[connector12]]></Name>
-					<X>1335</X><Y>410</Y>
+					<X>2170</X><Y>982</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23086,9 +23359,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891557</Id>
+					<Id>1781910603261</Id>
 					<Name><![CDATA[connector17]]></Name>
-					<X>410</X><Y>190</Y>
+					<X>1245</X><Y>762</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23119,9 +23392,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891559</Id>
+					<Id>1781910603263</Id>
 					<Name><![CDATA[connector18]]></Name>
-					<X>990</X><Y>840</Y>
+					<X>1825</X><Y>1412</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23154,9 +23427,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891561</Id>
+					<Id>1781910603265</Id>
 					<Name><![CDATA[connector19]]></Name>
-					<X>1010</X><Y>840</Y>
+					<X>1845</X><Y>1412</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23187,9 +23460,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891563</Id>
+					<Id>1781910603267</Id>
 					<Name><![CDATA[connector20]]></Name>
-					<X>1010</X><Y>860</Y>
+					<X>1845</X><Y>1432</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23220,9 +23493,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891565</Id>
+					<Id>1781910603269</Id>
 					<Name><![CDATA[connector21]]></Name>
-					<X>1010</X><Y>880</Y>
+					<X>1845</X><Y>1452</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23253,9 +23526,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891567</Id>
+					<Id>1781910603271</Id>
 					<Name><![CDATA[connector22]]></Name>
-					<X>1010</X><Y>900</Y>
+					<X>1845</X><Y>1472</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23286,9 +23559,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891569</Id>
+					<Id>1781910603273</Id>
 					<Name><![CDATA[connector23]]></Name>
-					<X>1210</X><Y>1080</Y>
+					<X>2045</X><Y>1652</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23319,9 +23592,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891571</Id>
+					<Id>1781910603275</Id>
 					<Name><![CDATA[connector24]]></Name>
-					<X>1460</X><Y>1010</Y>
+					<X>2295</X><Y>1582</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23352,9 +23625,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891573</Id>
+					<Id>1781910603277</Id>
 					<Name><![CDATA[connector25]]></Name>
-					<X>1460</X><Y>1030</Y>
+					<X>2295</X><Y>1602</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23385,9 +23658,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891575</Id>
+					<Id>1781910603279</Id>
 					<Name><![CDATA[connector26]]></Name>
-					<X>1210</X><Y>1000</Y>
+					<X>2045</X><Y>1572</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23418,9 +23691,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891577</Id>
+					<Id>1781910603281</Id>
 					<Name><![CDATA[connector27]]></Name>
-					<X>1210</X><Y>1020</Y>
+					<X>2045</X><Y>1592</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23451,9 +23724,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891579</Id>
+					<Id>1781910603283</Id>
 					<Name><![CDATA[connector28]]></Name>
-					<X>1210</X><Y>1040</Y>
+					<X>2045</X><Y>1612</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23484,9 +23757,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737891581</Id>
+					<Id>1781910603285</Id>
 					<Name><![CDATA[connector29]]></Name>
-					<X>1210</X><Y>1060</Y>
+					<X>2045</X><Y>1632</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23556,9 +23829,9 @@ main.editbox13.setText(main.
 			</ContainerLinks>
 			<EmbeddedObjects>
 				<EmbeddedObject>
-					<Id>1781737891257</Id>
+					<Id>1781910602961</Id>
 					<Name><![CDATA[source]]></Name>
-					<X>470</X><Y>290</Y>
+					<X>1305</X><Y>862</Y>
 					<Label><X>-10</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23773,10 +24046,10 @@ double b=kolAbonent;
  a=uniform();
 for (int i=1; i<(kolAbonent+1); i++)
  {if (a<=((1/kolAbonent)*b))
- entity.numAbPol=i;
+ agent.numAbPol=i;
  b=b-1;}
-entity.timeOtpr=time();
-entity.numAbOtpr=numAbonent;]]></Code>
+agent.timeOtpr=time();
+agent.numAbOtpr=numAbonent;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -23823,9 +24096,9 @@ entity.numAbOtpr=numAbonent;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737891313</Id>
+					<Id>1781910603017</Id>
 					<Name><![CDATA[IF]]></Name>
-					<X>585</X><Y>290</Y>
+					<X>1420</X><Y>862</Y>
 					<Label><X>-40</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23851,7 +24124,7 @@ entity.numAbOtpr=numAbonent;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol == numAbonent]]></Code>
+								<Code><![CDATA[agent.numAbPol == numAbonent]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -23910,9 +24183,9 @@ entity.numAbOtpr=numAbonent;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737891324</Id>
+					<Id>1781910603028</Id>
 					<Name><![CDATA[sink]]></Name>
-					<X>690</X><Y>290</Y>
+					<X>1525</X><Y>862</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23979,9 +24252,9 @@ entity.numAbOtpr=numAbonent;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737891330</Id>
+					<Id>1781910603034</Id>
 					<Name><![CDATA[selectOutput]]></Name>
-					<X>545</X><Y>435</Y>
+					<X>1380</X><Y>1007</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -23996,9 +24269,6 @@ entity.numAbOtpr=numAbonent;]]></Code>
 							<ClassName><![CDATA[SelectOutput5]]></ClassName>
 							<ItemName><![CDATA[1412336243132]]></ItemName>
 						</GenericParameterSubstituteReference>
-						<GenericParameterSubstituteValue Class="CodeValue">
-							<Code><![CDATA[Message]]></Code>
-						</GenericParameterSubstituteValue>
 					</GenericParameterSubstitute>
 					<Parameters>
 						<Parameter>
@@ -24066,9 +24336,9 @@ true);]]></Code>
 							<Name><![CDATA[onExit1]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[agent.numKat=1;
-b=normal(dlKatO.get(entity.numKat),
-dlKat.get(entity.numKat));
-entity.dlina=(int)(b);
+b=normal(dlKatO.get(agent.numKat),
+dlKat.get(agent.numKat));
+agent.dlina=(int)(b);
 d1++;
 kolOtprKat1=d1/kolProg;
 editbox6.setText(kolOtprKat1, true);
@@ -24081,10 +24351,10 @@ main.editbox6.setText(main.
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat=2;
-b=normal(dlKatO.get(entity.numKat),
-dlKat.get(entity.numKat));
-entity.dlina = (int)(b);
+								<Code><![CDATA[agent.numKat=2;
+b=normal(dlKatO.get(agent.numKat),
+dlKat.get(agent.numKat));
+agent.dlina = (int)(b);
 d2++;
 kolOtprKat2=d2/kolProg;
 editbox7.setText(kolOtprKat2, true);
@@ -24097,10 +24367,10 @@ main.editbox7.setText(main.
 						<Parameter>
 							<Name><![CDATA[onExit3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat=3;
-b=normal(dlKatO.get(entity.numKat),
-dlKat.get(entity.numKat));
-entity.dlina=(int)(b);
+								<Code><![CDATA[agent.numKat=3;
+b=normal(dlKatO.get(agent.numKat),
+dlKat.get(agent.numKat));
+agent.dlina=(int)(b);
 d3++;
 kolOtprKat3=d3/kolProg;
 editbox8.setText(kolOtprKat3, true);
@@ -24113,10 +24383,10 @@ main.editbox8.setText(main.
 						<Parameter>
 							<Name><![CDATA[onExit4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat=4;
-b=normal(dlKatO.get(entity.numKat),
-dlKat.get(entity.numKat));
-entity.dlina=(int)(b);
+								<Code><![CDATA[agent.numKat=4;
+b=normal(dlKatO.get(agent.numKat),
+dlKat.get(agent.numKat));
+agent.dlina=(int)(b);
 d4++;
 kolOtprKat4=d4/kolProg;
 editbox9.setText(kolOtprKat4, true);
@@ -24170,9 +24440,9 @@ main.editbox9.setText(main.
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737891351</Id>
+					<Id>1781910603055</Id>
 					<Name><![CDATA[selectOutput1]]></Name>
-					<X>675</X><Y>435</Y>
+					<X>1510</X><Y>1007</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24198,25 +24468,25 @@ main.editbox9.setText(main.
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==1]]></Code>
+								<Code><![CDATA[agent.numAbPol==1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==2]]></Code>
+								<Code><![CDATA[agent.numAbPol==2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==3]]></Code>
+								<Code><![CDATA[agent.numAbPol==3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==4]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -24242,10 +24512,6 @@ main.editbox9.setText(main.
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[отпрАб1++;
-main.отпр41=отпрАб1;]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
@@ -24263,6 +24529,10 @@ main.отпр13=отпрАб3;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit4]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[отпрАб4++;
+main.отпр14=отпрАб4;]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit5]]></Name>
@@ -24308,9 +24578,9 @@ main.отпр13=отпрАб3;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737891372</Id>
+					<Id>1781910603076</Id>
 					<Name><![CDATA[selectOutput2]]></Name>
-					<X>815</X><Y>525</Y>
+					<X>1650</X><Y>1097</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24336,20 +24606,26 @@ main.отпр13=отпрАб3;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==5]]></Code>
+								<Code><![CDATA[agent.numAbPol==5]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==6]]></Code>
+								<Code><![CDATA[agent.numAbPol==6]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[probability1]]></Name>
@@ -24436,9 +24712,9 @@ main.отпр16=отпрАб6;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737891393</Id>
+					<Id>1781910603097</Id>
 					<Name><![CDATA[Буфер]]></Name>
-					<X>945</X><Y>440</Y>
+					<X>1780</X><Y>1012</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24550,9 +24826,9 @@ main.отпр16=отпрАб6;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737891414</Id>
+					<Id>1781910603118</Id>
 					<Name><![CDATA[selectOutput3]]></Name>
-					<X>1315</X><Y>390</Y>
+					<X>2150</X><Y>962</Y>
 					<Label><X>-40</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24581,7 +24857,7 @@ main.отпр16=отпрАб6;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ emkBuferVx-tekEmkBuferVx>=entity.dlina]]></Code>
+								<Code><![CDATA[ emkBuferVx-tekEmkBuferVx>=agent.dlina]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -24640,9 +24916,9 @@ main.отпр16=отпрАб6;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737891425</Id>
+					<Id>1781910603129</Id>
 					<Name><![CDATA[sink1]]></Name>
-					<X>1335</X><Y>565</Y>
+					<X>2170</X><Y>1137</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24706,9 +24982,9 @@ main.отпр16=отпрАб6;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737891431</Id>
+					<Id>1781910603135</Id>
 					<Name><![CDATA[БуферВх]]></Name>
-					<X>1420</X><Y>380</Y>
+					<X>2255</X><Y>952</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24723,9 +24999,6 @@ main.отпр16=отпрАб6;]]></Code>
 							<ClassName><![CDATA[Queue]]></ClassName>
 							<ItemName><![CDATA[1412336242932]]></ItemName>
 						</GenericParameterSubstituteReference>
-						<GenericParameterSubstituteValue Class="CodeValue">
-							<Code><![CDATA[Абонент]]></Code>
-						</GenericParameterSubstituteValue>
 					</GenericParameterSubstitute>
 					<Parameters>
 						<Parameter>
@@ -24767,7 +25040,7 @@ main.отпр16=отпрАб6;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ tekEmkBuferVx+=entity.dlina;]]></Code>
+								<Code><![CDATA[ tekEmkBuferVx+=agent.dlina;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -24776,7 +25049,7 @@ main.отпр16=отпрАб6;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ tekEmkBuferVx-=entity.dlina;]]></Code>
+								<Code><![CDATA[ tekEmkBuferVx-=agent.dlina;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -24829,9 +25102,9 @@ main.отпр16=отпрАб6;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737891452</Id>
+					<Id>1781910603156</Id>
 					<Name><![CDATA[selectOutput4]]></Name>
-					<X>980</X><Y>830</Y>
+					<X>1815</X><Y>1402</Y>
 					<Label><X>-44</X><Y>-24</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -24857,25 +25130,25 @@ main.отпр16=отпрАб6;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==1]]></Code>
+								<Code><![CDATA[agent.numKat==1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==2]]></Code>
+								<Code><![CDATA[agent.numKat==2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==3]]></Code>
+								<Code><![CDATA[agent.numKat==3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==4]]></Code>
+								<Code><![CDATA[agent.numKat==4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -25001,9 +25274,9 @@ main.editbox4.setText(main.
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737891473</Id>
+					<Id>1781910603177</Id>
 					<Name><![CDATA[selectOutput6]]></Name>
-					<X>1430</X><Y>1000</Y>
+					<X>2265</X><Y>1572</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25029,20 +25302,26 @@ main.editbox4.setText(main.
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==5]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==5]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==6]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==6]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[probability1]]></Name>
@@ -25134,9 +25413,9 @@ true);]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737891494</Id>
+					<Id>1781910603198</Id>
 					<Name><![CDATA[selectOutput5]]></Name>
-					<X>1180</X><Y>990</Y>
+					<X>2015</X><Y>1562</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25162,25 +25441,25 @@ true);]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==1]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==2]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==3]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==4]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -25206,13 +25485,6 @@ true);]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[отАб1++;
-main.кПрСп14=отАб1/main.
-отпр14;
-main.КПрСп14.setText(main.кПрСп14,
-true);]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
@@ -25228,11 +25500,18 @@ true);]]></Code>
 							<Value Class="CodeValue">
 								<Code><![CDATA[отАб3++;
 main.кПрСп31=отАб3/main.отпр31;
-main.КП]]></Code>
+main.КПрСп31.setText(main.кПрСп31,
+true);]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit4]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[отАб4++;
+main.кПрСп41=отАб4/main.отпр41;
+main.КПрСп41.setText(main.кПрСп41,
+true);]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit5]]></Name>
@@ -25278,9 +25557,9 @@ main.КП]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737891515</Id>
+					<Id>1781910603219</Id>
 					<Name><![CDATA[sink2]]></Name>
-					<X>1660</X><Y>900</Y>
+					<X>2495</X><Y>1472</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25300,7 +25579,7 @@ main.КП]]></Code>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[врПередачи.add(time()-entity.timeOtpr);
+								<Code><![CDATA[врПередачи.add(time()-agent.timeOtpr);
 editbox11.setText(врПередачи.mean(),
 true);
 editbox12.setText(врПередачи.max(),
@@ -25312,7 +25591,7 @@ main.коэфПропСпособ=main.
 main.editbox10.setText(main.
 коэфПропСпособ, true);
 main.врПередСооб.add(time()-
-entity.timeOtpr);
+agent.timeOtpr);
 main.editbox11.setText(main.
 врПередСооб.mean(), true);
 main.editbox12.setText(main.
@@ -25381,11 +25660,11 @@ main.editbox13.setText(main.
 
 			<Presentation>
 				<Text>
-					<Id>1781737891247</Id>
+					<Id>1781910602951</Id>
 					<Name><![CDATA[text20]]></Name>
-					<X>760</X><Y>200</Y>
+					<X>1595</X><Y>772</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -25402,9 +25681,9 @@ main.editbox13.setText(main.
 					<Alignment>LEFT</Alignment>
 				</Text>
 				<Rectangle>
-					<Id>1781737891249</Id>
+					<Id>1781910602953</Id>
 					<Name><![CDATA[rectangle]]></Name>
-					<X>150</X><Y>150</Y>
+					<X>985</X><Y>722</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25424,9 +25703,9 @@ main.editbox13.setText(main.
 					<FillMaterial>null</FillMaterial>
 				</Rectangle>
 				<RoundedRectangle>
-					<Id>1781737891251</Id>
+					<Id>1781910602955</Id>
 					<Name><![CDATA[roundRectangle1]]></Name>
-					<X>1060</X><Y>310</Y>
+					<X>1895</X><Y>882</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25447,11 +25726,11 @@ main.editbox13.setText(main.
 					<ArcRadius>10</ArcRadius>
 				</RoundedRectangle>
 				<Text>
-					<Id>1781737891253</Id>
+					<Id>1781910602957</Id>
 					<Name><![CDATA[text19]]></Name>
-					<X>615</X><Y>225</Y>
+					<X>1450</X><Y>797</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -25477,6 +25756,36 @@ main.editbox13.setText(main.
 		<ActiveObjectClass>
 			<Id>1781737829404</Id>
 			<Name><![CDATA[Абонент5]]></Name>
+			<ExtendsReference>
+				<PackageName><![CDATA[network]]></PackageName>
+				<ClassName><![CDATA[Абонент]]></ClassName>
+			</ExtendsReference>
+			<Parameters>
+				<Parameter>
+					<Name><![CDATA[kolAbonent]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[timeAbonent]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[kolProg]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[numAbonent]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[emkBuferVx]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[verKat]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[dlKat]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[dlKatO]]></Name>
+				</Parameter>
+			</Parameters>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1781737829410</Id>
@@ -25570,9 +25879,9 @@ main.editbox13.setText(main.
 			<ConnectionsId>1781737829405</ConnectionsId>
 			<Ports>
 				<Port>
-					<Id>1781737902139</Id>
+					<Id>1781910611826</Id>
 					<Name><![CDATA[Вход]]></Name>
-					<X>1100</X><Y>310</Y>
+					<X>1882</X><Y>1026</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25582,9 +25891,9 @@ main.editbox13.setText(main.
 					<CustomPort><![CDATA[false]]></CustomPort>
 				</Port>
 				<Port>
-					<Id>1781737902141</Id>
+					<Id>1781910611828</Id>
 					<Name><![CDATA[Выход]]></Name>
-					<X>1100</X><Y>270</Y>
+					<X>1882</X><Y>986</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25596,9 +25905,9 @@ main.editbox13.setText(main.
 			</Ports>
 			<Connectors>
 				<Connector>
-					<Id>1781737902143</Id>
+					<Id>1781910611830</Id>
 					<Name><![CDATA[connector]]></Name>
-					<X>535</X><Y>210</Y>
+					<X>1317</X><Y>926</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25629,9 +25938,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902145</Id>
+					<Id>1781910611832</Id>
 					<Name><![CDATA[connector1]]></Name>
-					<X>630</X><Y>210</Y>
+					<X>1412</X><Y>926</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25662,9 +25971,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902147</Id>
+					<Id>1781910611834</Id>
 					<Name><![CDATA[connector3]]></Name>
-					<X>625</X><Y>355</Y>
+					<X>1407</X><Y>1071</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25695,9 +26004,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902149</Id>
+					<Id>1781910611836</Id>
 					<Name><![CDATA[connector2]]></Name>
-					<X>495</X><Y>355</Y>
+					<X>1277</X><Y>1071</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25728,9 +26037,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902151</Id>
+					<Id>1781910611838</Id>
 					<Name><![CDATA[connector5]]></Name>
-					<X>645</X><Y>375</Y>
+					<X>1427</X><Y>1091</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25761,9 +26070,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902153</Id>
+					<Id>1781910611840</Id>
 					<Name><![CDATA[connector6]]></Name>
-					<X>645</X><Y>395</Y>
+					<X>1427</X><Y>1111</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25794,9 +26103,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902155</Id>
+					<Id>1781910611842</Id>
 					<Name><![CDATA[connector7]]></Name>
-					<X>645</X><Y>415</Y>
+					<X>1427</X><Y>1131</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25827,9 +26136,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902157</Id>
+					<Id>1781910611844</Id>
 					<Name><![CDATA[connector9]]></Name>
-					<X>785</X><Y>465</Y>
+					<X>1567</X><Y>1181</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25860,9 +26169,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902159</Id>
+					<Id>1781910611846</Id>
 					<Name><![CDATA[connector13]]></Name>
-					<X>785</X><Y>445</Y>
+					<X>1567</X><Y>1161</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25893,9 +26202,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902161</Id>
+					<Id>1781910611848</Id>
 					<Name><![CDATA[connector14]]></Name>
-					<X>515</X><Y>375</Y>
+					<X>1297</X><Y>1091</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25926,9 +26235,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902163</Id>
+					<Id>1781910611850</Id>
 					<Name><![CDATA[connector15]]></Name>
-					<X>515</X><Y>395</Y>
+					<X>1297</X><Y>1111</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25959,9 +26268,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902165</Id>
+					<Id>1781910611852</Id>
 					<Name><![CDATA[connector16]]></Name>
-					<X>515</X><Y>415</Y>
+					<X>1297</X><Y>1131</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -25992,9 +26301,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902167</Id>
+					<Id>1781910611854</Id>
 					<Name><![CDATA[connector4]]></Name>
-					<X>645</X><Y>435</Y>
+					<X>1427</X><Y>1151</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26025,9 +26334,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902169</Id>
+					<Id>1781910611856</Id>
 					<Name><![CDATA[connector8]]></Name>
-					<X>645</X><Y>355</Y>
+					<X>1427</X><Y>1071</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26058,9 +26367,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902171</Id>
+					<Id>1781910611858</Id>
 					<Name><![CDATA[connector10]]></Name>
-					<X>925</X><Y>370</Y>
+					<X>1707</X><Y>1086</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26075,7 +26384,7 @@ main.editbox13.setText(main.
 						<ClassName><![CDATA[Queue]]></ClassName>
 						<ItemName><![CDATA[out]]></ItemName>
 					</SourceConnectableItemReference>
-					<TargetId>1781737902141</TargetId>
+					<TargetId>1781910611828</TargetId>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>30</X><Y>0</Y></Point>
@@ -26086,9 +26395,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902173</Id>
+					<Id>1781910611860</Id>
 					<Name><![CDATA[connector11]]></Name>
-					<X>1265</X><Y>310</Y>
+					<X>2047</X><Y>1026</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26103,16 +26412,16 @@ main.editbox13.setText(main.
 						<ClassName><![CDATA[SelectOutput]]></ClassName>
 						<ItemName><![CDATA[in]]></ItemName>
 					</SourceConnectableItemReference>
-					<TargetId>1781737902139</TargetId>
+					<TargetId>1781910611826</TargetId>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>-165</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902175</Id>
+					<Id>1781910611862</Id>
 					<Name><![CDATA[connector12]]></Name>
-					<X>1275</X><Y>320</Y>
+					<X>2057</X><Y>1036</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26143,9 +26452,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902177</Id>
+					<Id>1781910611864</Id>
 					<Name><![CDATA[connector17]]></Name>
-					<X>350</X><Y>100</Y>
+					<X>1132</X><Y>816</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26176,9 +26485,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902179</Id>
+					<Id>1781910611866</Id>
 					<Name><![CDATA[connector18]]></Name>
-					<X>930</X><Y>750</Y>
+					<X>1712</X><Y>1466</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26211,9 +26520,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902181</Id>
+					<Id>1781910611868</Id>
 					<Name><![CDATA[connector19]]></Name>
-					<X>950</X><Y>750</Y>
+					<X>1732</X><Y>1466</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26244,9 +26553,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902183</Id>
+					<Id>1781910611870</Id>
 					<Name><![CDATA[connector20]]></Name>
-					<X>950</X><Y>770</Y>
+					<X>1732</X><Y>1486</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26277,9 +26586,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902185</Id>
+					<Id>1781910611872</Id>
 					<Name><![CDATA[connector21]]></Name>
-					<X>950</X><Y>790</Y>
+					<X>1732</X><Y>1506</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26310,9 +26619,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902187</Id>
+					<Id>1781910611874</Id>
 					<Name><![CDATA[connector22]]></Name>
-					<X>950</X><Y>810</Y>
+					<X>1732</X><Y>1526</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26343,9 +26652,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902189</Id>
+					<Id>1781910611876</Id>
 					<Name><![CDATA[connector23]]></Name>
-					<X>1150</X><Y>990</Y>
+					<X>1932</X><Y>1706</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26376,9 +26685,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902191</Id>
+					<Id>1781910611878</Id>
 					<Name><![CDATA[connector24]]></Name>
-					<X>1400</X><Y>920</Y>
+					<X>2182</X><Y>1636</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26409,9 +26718,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902193</Id>
+					<Id>1781910611880</Id>
 					<Name><![CDATA[connector25]]></Name>
-					<X>1400</X><Y>940</Y>
+					<X>2182</X><Y>1656</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26442,9 +26751,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902195</Id>
+					<Id>1781910611882</Id>
 					<Name><![CDATA[connector26]]></Name>
-					<X>1150</X><Y>910</Y>
+					<X>1932</X><Y>1626</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26475,9 +26784,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902197</Id>
+					<Id>1781910611884</Id>
 					<Name><![CDATA[connector27]]></Name>
-					<X>1150</X><Y>930</Y>
+					<X>1932</X><Y>1646</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26508,9 +26817,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902199</Id>
+					<Id>1781910611886</Id>
 					<Name><![CDATA[connector28]]></Name>
-					<X>1150</X><Y>950</Y>
+					<X>1932</X><Y>1666</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26541,9 +26850,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737902201</Id>
+					<Id>1781910611888</Id>
 					<Name><![CDATA[connector29]]></Name>
-					<X>1150</X><Y>970</Y>
+					<X>1932</X><Y>1686</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26613,9 +26922,9 @@ main.editbox13.setText(main.
 			</ContainerLinks>
 			<EmbeddedObjects>
 				<EmbeddedObject>
-					<Id>1781737901877</Id>
+					<Id>1781910611564</Id>
 					<Name><![CDATA[source]]></Name>
-					<X>410</X><Y>200</Y>
+					<X>1192</X><Y>916</Y>
 					<Label><X>-10</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26830,10 +27139,10 @@ double b=kolAbonent;
  a=uniform();
 for (int i=1; i<(kolAbonent+1); i++)
  {if (a<=((1/kolAbonent)*b))
- entity.numAbPol=i;
+ agent.numAbPol=i;
  b=b-1;}
-entity.timeOtpr=time();
-entity.numAbOtpr=numAbonent;]]></Code>
+agent.timeOtpr=time();
+agent.numAbOtpr=numAbonent;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -26880,9 +27189,9 @@ entity.numAbOtpr=numAbonent;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737901933</Id>
+					<Id>1781910611620</Id>
 					<Name><![CDATA[IF]]></Name>
-					<X>525</X><Y>200</Y>
+					<X>1307</X><Y>916</Y>
 					<Label><X>-40</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -26908,7 +27217,7 @@ entity.numAbOtpr=numAbonent;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol == numAbonent]]></Code>
+								<Code><![CDATA[agent.numAbPol == numAbonent]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -26967,9 +27276,9 @@ entity.numAbOtpr=numAbonent;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737901944</Id>
+					<Id>1781910611631</Id>
 					<Name><![CDATA[sink]]></Name>
-					<X>630</X><Y>200</Y>
+					<X>1412</X><Y>916</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27036,9 +27345,9 @@ entity.numAbOtpr=numAbonent;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737901950</Id>
+					<Id>1781910611637</Id>
 					<Name><![CDATA[selectOutput]]></Name>
-					<X>485</X><Y>345</Y>
+					<X>1267</X><Y>1061</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27053,9 +27362,6 @@ entity.numAbOtpr=numAbonent;]]></Code>
 							<ClassName><![CDATA[SelectOutput5]]></ClassName>
 							<ItemName><![CDATA[1412336243132]]></ItemName>
 						</GenericParameterSubstituteReference>
-						<GenericParameterSubstituteValue Class="CodeValue">
-							<Code><![CDATA[Agent]]></Code>
-						</GenericParameterSubstituteValue>
 					</GenericParameterSubstitute>
 					<Parameters>
 						<Parameter>
@@ -27122,10 +27428,10 @@ true);]]></Code>
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat=1;
-b=normal(dlKatO.get(entity.numKat),
-dlKat.get(entity.numKat));
-entity.dlina=(int)(b);
+								<Code><![CDATA[agent.numKat=1;
+b=normal(dlKatO.get(agent.numKat),
+dlKat.get(agent.numKat));
+agent.dlina=(int)(b);
 d1++;
 kolOtprKat1=d1/kolProg;
 editbox6.setText(kolOtprKat1, true);
@@ -27138,10 +27444,10 @@ main.editbox6.setText(main.
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat=2;
-b=normal(dlKatO.get(entity.numKat),
-dlKat.get(entity.numKat));
-entity.dlina = (int)(b);
+								<Code><![CDATA[agent.numKat=2;
+b=normal(dlKatO.get(agent.numKat),
+dlKat.get(agent.numKat));
+agent.dlina = (int)(b);
 d2++;
 kolOtprKat2=d2/kolProg;
 editbox7.setText(kolOtprKat2, true);
@@ -27154,10 +27460,10 @@ main.editbox7.setText(main.
 						<Parameter>
 							<Name><![CDATA[onExit3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat=3;
-b=normal(dlKatO.get(entity.numKat),
-dlKat.get(entity.numKat));
-entity.dlina=(int)(b);
+								<Code><![CDATA[agent.numKat=3;
+b=normal(dlKatO.get(agent.numKat),
+dlKat.get(agent.numKat));
+agent.dlina=(int)(b);
 d3++;
 kolOtprKat3=d3/kolProg;
 editbox8.setText(kolOtprKat3, true);
@@ -27170,10 +27476,10 @@ main.editbox8.setText(main.
 						<Parameter>
 							<Name><![CDATA[onExit4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat=4;
-b=normal(dlKatO.get(entity.numKat),
-dlKat.get(entity.numKat));
-entity.dlina=(int)(b);
+								<Code><![CDATA[agent.numKat=4;
+b=normal(dlKatO.get(agent.numKat),
+dlKat.get(agent.numKat));
+agent.dlina=(int)(b);
 d4++;
 kolOtprKat4=d4/kolProg;
 editbox9.setText(kolOtprKat4, true);
@@ -27227,9 +27533,9 @@ main.editbox9.setText(main.
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737901971</Id>
+					<Id>1781910611658</Id>
 					<Name><![CDATA[selectOutput1]]></Name>
-					<X>615</X><Y>345</Y>
+					<X>1397</X><Y>1061</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27255,25 +27561,25 @@ main.editbox9.setText(main.
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==1]]></Code>
+								<Code><![CDATA[agent.numAbPol==1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==2]]></Code>
+								<Code><![CDATA[agent.numAbPol==2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==3]]></Code>
+								<Code><![CDATA[agent.numAbPol==3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==4]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -27299,10 +27605,6 @@ main.editbox9.setText(main.
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[отпрАб1++;
-main.отпр51=отпрАб1;]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
@@ -27369,9 +27671,9 @@ main.отпр14=отпрАб4;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737901992</Id>
+					<Id>1781910611679</Id>
 					<Name><![CDATA[selectOutput2]]></Name>
-					<X>755</X><Y>435</Y>
+					<X>1537</X><Y>1151</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27397,20 +27699,26 @@ main.отпр14=отпрАб4;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==5]]></Code>
+								<Code><![CDATA[agent.numAbPol==5]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==6]]></Code>
+								<Code><![CDATA[agent.numAbPol==6]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[probability1]]></Name>
@@ -27435,6 +27743,10 @@ main.отпр14=отпрАб4;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[отпрАб5++;
+main.отпр15=отпрАб5;]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
@@ -27493,9 +27805,9 @@ main.отпр16=отпрАб6;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737902013</Id>
+					<Id>1781910611700</Id>
 					<Name><![CDATA[Буфер]]></Name>
-					<X>885</X><Y>350</Y>
+					<X>1667</X><Y>1066</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27607,9 +27919,9 @@ main.отпр16=отпрАб6;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737902034</Id>
+					<Id>1781910611721</Id>
 					<Name><![CDATA[selectOutput3]]></Name>
-					<X>1255</X><Y>300</Y>
+					<X>2037</X><Y>1016</Y>
 					<Label><X>-40</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27638,7 +27950,7 @@ main.отпр16=отпрАб6;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ emkBuferVx-tekEmkBuferVx>=entity.dlina]]></Code>
+								<Code><![CDATA[ emkBuferVx-tekEmkBuferVx>=agent.dlina]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -27697,9 +28009,9 @@ main.отпр16=отпрАб6;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737902045</Id>
+					<Id>1781910611732</Id>
 					<Name><![CDATA[sink1]]></Name>
-					<X>1275</X><Y>475</Y>
+					<X>2057</X><Y>1191</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27763,9 +28075,9 @@ main.отпр16=отпрАб6;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737902051</Id>
+					<Id>1781910611738</Id>
 					<Name><![CDATA[БуферВх]]></Name>
-					<X>1360</X><Y>290</Y>
+					<X>2142</X><Y>1006</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27821,7 +28133,7 @@ main.отпр16=отпрАб6;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ tekEmkBuferVx+=entity.dlina;]]></Code>
+								<Code><![CDATA[ tekEmkBuferVx+=agent.dlina;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -27830,7 +28142,7 @@ main.отпр16=отпрАб6;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ tekEmkBuferVx-=entity.dlina;]]></Code>
+								<Code><![CDATA[ tekEmkBuferVx-=agent.dlina;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -27883,9 +28195,9 @@ main.отпр16=отпрАб6;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737902072</Id>
+					<Id>1781910611759</Id>
 					<Name><![CDATA[selectOutput4]]></Name>
-					<X>920</X><Y>740</Y>
+					<X>1702</X><Y>1456</Y>
 					<Label><X>-44</X><Y>-24</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -27911,25 +28223,25 @@ main.отпр16=отпрАб6;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==1]]></Code>
+								<Code><![CDATA[agent.numKat==1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==2]]></Code>
+								<Code><![CDATA[agent.numKat==2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==3]]></Code>
+								<Code><![CDATA[agent.numKat==3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==4]]></Code>
+								<Code><![CDATA[agent.numKat==4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -28055,9 +28367,9 @@ main.editbox4.setText(main.
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737902093</Id>
+					<Id>1781910611780</Id>
 					<Name><![CDATA[selectOutput6]]></Name>
-					<X>1370</X><Y>910</Y>
+					<X>2152</X><Y>1626</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -28083,20 +28395,26 @@ main.editbox4.setText(main.
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==5]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==5]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==6]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==6]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[probability1]]></Name>
@@ -28121,6 +28439,12 @@ main.editbox4.setText(main.
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[отАб5++;
+main.кПрСп51=отАб5/main. отпр51;
+main.КПрСп51.setText(main.кПрСп51,
+true);]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
@@ -28182,9 +28506,9 @@ true);]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737902114</Id>
+					<Id>1781910611801</Id>
 					<Name><![CDATA[selectOutput5]]></Name>
-					<X>1120</X><Y>900</Y>
+					<X>1902</X><Y>1616</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -28210,25 +28534,25 @@ true);]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==1]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==2]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==3]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==4]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -28254,12 +28578,6 @@ true);]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[отАб1++;
-main.кПрСп15=отАб1/main.отпр15;
-main.КПрСп15.setText(main.кПрСп15,
-true);]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
@@ -28275,7 +28593,8 @@ true);]]></Code>
 							<Value Class="CodeValue">
 								<Code><![CDATA[отАб3++;
 main.кПрСп31=отАб3/main.отпр31;
-main.КП]]></Code>
+main.КПрСп31.setText(main.кПрСп31,
+true);]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -28331,9 +28650,9 @@ true);]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737902135</Id>
+					<Id>1781910611822</Id>
 					<Name><![CDATA[sink2]]></Name>
-					<X>1600</X><Y>810</Y>
+					<X>2382</X><Y>1526</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -28353,7 +28672,7 @@ true);]]></Code>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[врПередачи.add(time()-entity.timeOtpr);
+								<Code><![CDATA[врПередачи.add(time()-agent.timeOtpr);
 editbox11.setText(врПередачи.mean(),
 true);
 editbox12.setText(врПередачи.max(),
@@ -28365,7 +28684,7 @@ main.коэфПропСпособ=main.
 main.editbox10.setText(main.
 коэфПропСпособ, true);
 main.врПередСооб.add(time()-
-entity.timeOtpr);
+agent.timeOtpr);
 main.editbox11.setText(main.
 врПередСооб.mean(), true);
 main.editbox12.setText(main.
@@ -28434,11 +28753,11 @@ main.editbox13.setText(main.
 
 			<Presentation>
 				<Text>
-					<Id>1781737901867</Id>
+					<Id>1781910611554</Id>
 					<Name><![CDATA[text20]]></Name>
-					<X>700</X><Y>110</Y>
+					<X>1482</X><Y>826</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -28455,9 +28774,9 @@ main.editbox13.setText(main.
 					<Alignment>LEFT</Alignment>
 				</Text>
 				<Rectangle>
-					<Id>1781737901869</Id>
+					<Id>1781910611556</Id>
 					<Name><![CDATA[rectangle]]></Name>
-					<X>90</X><Y>60</Y>
+					<X>872</X><Y>776</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -28477,9 +28796,9 @@ main.editbox13.setText(main.
 					<FillMaterial>null</FillMaterial>
 				</Rectangle>
 				<RoundedRectangle>
-					<Id>1781737901871</Id>
+					<Id>1781910611558</Id>
 					<Name><![CDATA[roundRectangle1]]></Name>
-					<X>1000</X><Y>220</Y>
+					<X>1782</X><Y>936</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -28500,11 +28819,11 @@ main.editbox13.setText(main.
 					<ArcRadius>10</ArcRadius>
 				</RoundedRectangle>
 				<Text>
-					<Id>1781737901873</Id>
+					<Id>1781910611560</Id>
 					<Name><![CDATA[text19]]></Name>
-					<X>555</X><Y>135</Y>
+					<X>1337</X><Y>851</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -28530,6 +28849,36 @@ main.editbox13.setText(main.
 		<ActiveObjectClass>
 			<Id>1781737839760</Id>
 			<Name><![CDATA[Абонент6]]></Name>
+			<ExtendsReference>
+				<PackageName><![CDATA[network]]></PackageName>
+				<ClassName><![CDATA[Абонент]]></ClassName>
+			</ExtendsReference>
+			<Parameters>
+				<Parameter>
+					<Name><![CDATA[kolAbonent]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[timeAbonent]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[kolProg]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[numAbonent]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[emkBuferVx]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[verKat]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[dlKat]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[dlKatO]]></Name>
+				</Parameter>
+			</Parameters>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1781737839766</Id>
@@ -28623,9 +28972,9 @@ main.editbox13.setText(main.
 			<ConnectionsId>1781737839761</ConnectionsId>
 			<Ports>
 				<Port>
-					<Id>1781737913880</Id>
+					<Id>1781910620936</Id>
 					<Name><![CDATA[Вход]]></Name>
-					<X>2194</X><Y>941</Y>
+					<X>2904</X><Y>1768</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -28635,9 +28984,9 @@ main.editbox13.setText(main.
 					<CustomPort><![CDATA[false]]></CustomPort>
 				</Port>
 				<Port>
-					<Id>1781737913882</Id>
+					<Id>1781910620938</Id>
 					<Name><![CDATA[Выход]]></Name>
-					<X>2194</X><Y>901</Y>
+					<X>2904</X><Y>1728</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -28649,9 +28998,9 @@ main.editbox13.setText(main.
 			</Ports>
 			<Connectors>
 				<Connector>
-					<Id>1781737913884</Id>
+					<Id>1781910620940</Id>
 					<Name><![CDATA[connector]]></Name>
-					<X>1629</X><Y>841</Y>
+					<X>2339</X><Y>1668</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -28682,9 +29031,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913886</Id>
+					<Id>1781910620942</Id>
 					<Name><![CDATA[connector1]]></Name>
-					<X>1724</X><Y>841</Y>
+					<X>2434</X><Y>1668</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -28715,9 +29064,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913888</Id>
+					<Id>1781910620944</Id>
 					<Name><![CDATA[connector3]]></Name>
-					<X>1719</X><Y>986</Y>
+					<X>2429</X><Y>1813</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -28748,9 +29097,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913890</Id>
+					<Id>1781910620946</Id>
 					<Name><![CDATA[connector2]]></Name>
-					<X>1589</X><Y>986</Y>
+					<X>2299</X><Y>1813</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -28781,9 +29130,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913892</Id>
+					<Id>1781910620948</Id>
 					<Name><![CDATA[connector5]]></Name>
-					<X>1739</X><Y>1006</Y>
+					<X>2449</X><Y>1833</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -28814,9 +29163,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913894</Id>
+					<Id>1781910620950</Id>
 					<Name><![CDATA[connector6]]></Name>
-					<X>1739</X><Y>1026</Y>
+					<X>2449</X><Y>1853</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -28847,9 +29196,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913896</Id>
+					<Id>1781910620952</Id>
 					<Name><![CDATA[connector7]]></Name>
-					<X>1739</X><Y>1046</Y>
+					<X>2449</X><Y>1873</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -28880,9 +29229,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913898</Id>
+					<Id>1781910620954</Id>
 					<Name><![CDATA[connector9]]></Name>
-					<X>1879</X><Y>1096</Y>
+					<X>2589</X><Y>1923</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -28913,9 +29262,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913900</Id>
+					<Id>1781910620956</Id>
 					<Name><![CDATA[connector13]]></Name>
-					<X>1879</X><Y>1076</Y>
+					<X>2589</X><Y>1903</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -28946,9 +29295,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913902</Id>
+					<Id>1781910620958</Id>
 					<Name><![CDATA[connector14]]></Name>
-					<X>1609</X><Y>1006</Y>
+					<X>2319</X><Y>1833</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -28979,9 +29328,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913904</Id>
+					<Id>1781910620960</Id>
 					<Name><![CDATA[connector15]]></Name>
-					<X>1609</X><Y>1026</Y>
+					<X>2319</X><Y>1853</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -29012,9 +29361,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913906</Id>
+					<Id>1781910620962</Id>
 					<Name><![CDATA[connector16]]></Name>
-					<X>1609</X><Y>1046</Y>
+					<X>2319</X><Y>1873</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -29045,9 +29394,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913908</Id>
+					<Id>1781910620964</Id>
 					<Name><![CDATA[connector4]]></Name>
-					<X>1739</X><Y>1066</Y>
+					<X>2449</X><Y>1893</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -29078,9 +29427,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913910</Id>
+					<Id>1781910620966</Id>
 					<Name><![CDATA[connector8]]></Name>
-					<X>1739</X><Y>986</Y>
+					<X>2449</X><Y>1813</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -29111,9 +29460,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913912</Id>
+					<Id>1781910620968</Id>
 					<Name><![CDATA[connector10]]></Name>
-					<X>2019</X><Y>1001</Y>
+					<X>2729</X><Y>1828</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -29128,7 +29477,7 @@ main.editbox13.setText(main.
 						<ClassName><![CDATA[Queue]]></ClassName>
 						<ItemName><![CDATA[out]]></ItemName>
 					</SourceConnectableItemReference>
-					<TargetId>1781737913882</TargetId>
+					<TargetId>1781910620938</TargetId>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>30</X><Y>0</Y></Point>
@@ -29139,9 +29488,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913914</Id>
+					<Id>1781910620970</Id>
 					<Name><![CDATA[connector11]]></Name>
-					<X>2359</X><Y>941</Y>
+					<X>3069</X><Y>1768</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -29156,16 +29505,16 @@ main.editbox13.setText(main.
 						<ClassName><![CDATA[SelectOutput]]></ClassName>
 						<ItemName><![CDATA[in]]></ItemName>
 					</SourceConnectableItemReference>
-					<TargetId>1781737913880</TargetId>
+					<TargetId>1781910620936</TargetId>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>-165</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913916</Id>
+					<Id>1781910620972</Id>
 					<Name><![CDATA[connector12]]></Name>
-					<X>2369</X><Y>951</Y>
+					<X>3079</X><Y>1778</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -29196,9 +29545,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913918</Id>
+					<Id>1781910620974</Id>
 					<Name><![CDATA[connector17]]></Name>
-					<X>1444</X><Y>731</Y>
+					<X>2154</X><Y>1558</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -29229,9 +29578,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913920</Id>
+					<Id>1781910620976</Id>
 					<Name><![CDATA[connector18]]></Name>
-					<X>2024</X><Y>1381</Y>
+					<X>2734</X><Y>2208</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -29264,9 +29613,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913922</Id>
+					<Id>1781910620978</Id>
 					<Name><![CDATA[connector19]]></Name>
-					<X>2044</X><Y>1381</Y>
+					<X>2754</X><Y>2208</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -29297,9 +29646,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913924</Id>
+					<Id>1781910620980</Id>
 					<Name><![CDATA[connector20]]></Name>
-					<X>2044</X><Y>1401</Y>
+					<X>2754</X><Y>2228</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -29330,9 +29679,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913926</Id>
+					<Id>1781910620982</Id>
 					<Name><![CDATA[connector21]]></Name>
-					<X>2044</X><Y>1421</Y>
+					<X>2754</X><Y>2248</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -29363,9 +29712,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913928</Id>
+					<Id>1781910620984</Id>
 					<Name><![CDATA[connector22]]></Name>
-					<X>2044</X><Y>1441</Y>
+					<X>2754</X><Y>2268</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -29396,9 +29745,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913930</Id>
+					<Id>1781910620986</Id>
 					<Name><![CDATA[connector23]]></Name>
-					<X>2244</X><Y>1621</Y>
+					<X>2954</X><Y>2448</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -29429,9 +29778,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913932</Id>
+					<Id>1781910620988</Id>
 					<Name><![CDATA[connector24]]></Name>
-					<X>2494</X><Y>1551</Y>
+					<X>3204</X><Y>2378</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -29462,9 +29811,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913934</Id>
+					<Id>1781910620990</Id>
 					<Name><![CDATA[connector25]]></Name>
-					<X>2494</X><Y>1571</Y>
+					<X>3204</X><Y>2398</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -29495,9 +29844,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913936</Id>
+					<Id>1781910620992</Id>
 					<Name><![CDATA[connector26]]></Name>
-					<X>2244</X><Y>1541</Y>
+					<X>2954</X><Y>2368</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -29528,9 +29877,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913938</Id>
+					<Id>1781910620994</Id>
 					<Name><![CDATA[connector27]]></Name>
-					<X>2244</X><Y>1561</Y>
+					<X>2954</X><Y>2388</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -29561,9 +29910,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913940</Id>
+					<Id>1781910620996</Id>
 					<Name><![CDATA[connector28]]></Name>
-					<X>2244</X><Y>1581</Y>
+					<X>2954</X><Y>2408</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -29594,9 +29943,9 @@ main.editbox13.setText(main.
 					</Points>
 				</Connector>
 				<Connector>
-					<Id>1781737913942</Id>
+					<Id>1781910620998</Id>
 					<Name><![CDATA[connector29]]></Name>
-					<X>2244</X><Y>1601</Y>
+					<X>2954</X><Y>2428</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -29666,9 +30015,9 @@ main.editbox13.setText(main.
 			</ContainerLinks>
 			<EmbeddedObjects>
 				<EmbeddedObject>
-					<Id>1781737913618</Id>
+					<Id>1781910620674</Id>
 					<Name><![CDATA[source]]></Name>
-					<X>1504</X><Y>831</Y>
+					<X>2214</X><Y>1658</Y>
 					<Label><X>-10</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -29883,10 +30232,10 @@ double b=kolAbonent;
  a=uniform();
 for (int i=1; i<(kolAbonent+1); i++)
  {if (a<=((1/kolAbonent)*b))
- entity.numAbPol=i;
+ agent.numAbPol=i;
  b=b-1;}
-entity.timeOtpr=time();
-entity.numAbOtpr=numAbonent;]]></Code>
+agent.timeOtpr=time();
+agent.numAbOtpr=numAbonent;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -29933,9 +30282,9 @@ entity.numAbOtpr=numAbonent;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737913674</Id>
+					<Id>1781910620730</Id>
 					<Name><![CDATA[IF]]></Name>
-					<X>1619</X><Y>831</Y>
+					<X>2329</X><Y>1658</Y>
 					<Label><X>-40</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -29961,7 +30310,7 @@ entity.numAbOtpr=numAbonent;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol == numAbonent]]></Code>
+								<Code><![CDATA[agent.numAbPol == numAbonent]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -30020,9 +30369,9 @@ entity.numAbOtpr=numAbonent;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737913685</Id>
+					<Id>1781910620741</Id>
 					<Name><![CDATA[sink]]></Name>
-					<X>1724</X><Y>831</Y>
+					<X>2434</X><Y>1658</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -30089,9 +30438,9 @@ entity.numAbOtpr=numAbonent;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737913691</Id>
+					<Id>1781910620747</Id>
 					<Name><![CDATA[selectOutput]]></Name>
-					<X>1579</X><Y>976</Y>
+					<X>2289</X><Y>1803</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -30106,9 +30455,6 @@ entity.numAbOtpr=numAbonent;]]></Code>
 							<ClassName><![CDATA[SelectOutput5]]></ClassName>
 							<ItemName><![CDATA[1412336243132]]></ItemName>
 						</GenericParameterSubstituteReference>
-						<GenericParameterSubstituteValue Class="CodeValue">
-							<Code><![CDATA[Agent]]></Code>
-						</GenericParameterSubstituteValue>
 					</GenericParameterSubstitute>
 					<Parameters>
 						<Parameter>
@@ -30175,10 +30521,10 @@ true);]]></Code>
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat=1;
-b=normal(dlKatO.get(entity.numKat),
-dlKat.get(entity.numKat));
-entity.dlina=(int)(b);
+								<Code><![CDATA[agent.numKat=1;
+b=normal(dlKatO.get(agent.numKat),
+dlKat.get(agent.numKat));
+agent.dlina=(int)(b);
 d1++;
 kolOtprKat1=d1/kolProg;
 editbox6.setText(kolOtprKat1, true);
@@ -30191,10 +30537,10 @@ main.editbox6.setText(main.
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat=2;
-b=normal(dlKatO.get(entity.numKat),
-dlKat.get(entity.numKat));
-entity.dlina = (int)(b);
+								<Code><![CDATA[agent.numKat=2;
+b=normal(dlKatO.get(agent.numKat),
+dlKat.get(agent.numKat));
+agent.dlina = (int)(b);
 d2++;
 kolOtprKat2=d2/kolProg;
 editbox7.setText(kolOtprKat2, true);
@@ -30207,10 +30553,10 @@ main.editbox7.setText(main.
 						<Parameter>
 							<Name><![CDATA[onExit3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat=3;
-b=normal(dlKatO.get(entity.numKat),
-dlKat.get(entity.numKat));
-entity.dlina=(int)(b);
+								<Code><![CDATA[agent.numKat=3;
+b=normal(dlKatO.get(agent.numKat),
+dlKat.get(agent.numKat));
+agent.dlina=(int)(b);
 d3++;
 kolOtprKat3=d3/kolProg;
 editbox8.setText(kolOtprKat3, true);
@@ -30223,10 +30569,10 @@ main.editbox8.setText(main.
 						<Parameter>
 							<Name><![CDATA[onExit4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat=4;
-b=normal(dlKatO.get(entity.numKat),
-dlKat.get(entity.numKat));
-entity.dlina=(int)(b);
+								<Code><![CDATA[agent.numKat=4;
+b=normal(dlKatO.get(agent.numKat),
+dlKat.get(agent.numKat));
+agent.dlina=(int)(b);
 d4++;
 kolOtprKat4=d4/kolProg;
 editbox9.setText(kolOtprKat4, true);
@@ -30280,9 +30626,9 @@ main.editbox9.setText(main.
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737913712</Id>
+					<Id>1781910620768</Id>
 					<Name><![CDATA[selectOutput1]]></Name>
-					<X>1709</X><Y>976</Y>
+					<X>2419</X><Y>1803</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -30308,25 +30654,25 @@ main.editbox9.setText(main.
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==1]]></Code>
+								<Code><![CDATA[agent.numAbPol==1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==2]]></Code>
+								<Code><![CDATA[agent.numAbPol==2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==3]]></Code>
+								<Code><![CDATA[agent.numAbPol==3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==4]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -30352,10 +30698,6 @@ main.editbox9.setText(main.
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[отпрАб1++;
-main.отпр61=отпрАб1;]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
@@ -30422,9 +30764,9 @@ main.отпр14=отпрАб4;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737913733</Id>
+					<Id>1781910620789</Id>
 					<Name><![CDATA[selectOutput2]]></Name>
-					<X>1849</X><Y>1066</Y>
+					<X>2559</X><Y>1893</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -30450,20 +30792,26 @@ main.отпр14=отпрАб4;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==5]]></Code>
+								<Code><![CDATA[agent.numAbPol==5]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbPol==6]]></Code>
+								<Code><![CDATA[agent.numAbPol==6]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[probability1]]></Name>
@@ -30495,6 +30843,10 @@ main.отпр15=отпрАб5;]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[отпрАб6++;
+main.отпр16=отпрАб6;]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit3]]></Name>
@@ -30546,9 +30898,9 @@ main.отпр15=отпрАб5;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737913754</Id>
+					<Id>1781910620810</Id>
 					<Name><![CDATA[Буфер]]></Name>
-					<X>1979</X><Y>981</Y>
+					<X>2689</X><Y>1808</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -30660,9 +31012,9 @@ main.отпр15=отпрАб5;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737913775</Id>
+					<Id>1781910620831</Id>
 					<Name><![CDATA[selectOutput3]]></Name>
-					<X>2349</X><Y>931</Y>
+					<X>3059</X><Y>1758</Y>
 					<Label><X>-40</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -30691,7 +31043,7 @@ main.отпр15=отпрАб5;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ emkBuferVx-tekEmkBuferVx>=entity.dlina]]></Code>
+								<Code><![CDATA[ emkBuferVx-tekEmkBuferVx>=agent.dlina]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -30750,9 +31102,9 @@ main.отпр15=отпрАб5;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737913786</Id>
+					<Id>1781910620842</Id>
 					<Name><![CDATA[sink1]]></Name>
-					<X>2369</X><Y>1106</Y>
+					<X>3079</X><Y>1933</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -30816,9 +31168,9 @@ main.отпр15=отпрАб5;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737913792</Id>
+					<Id>1781910620848</Id>
 					<Name><![CDATA[БуферВх]]></Name>
-					<X>2454</X><Y>921</Y>
+					<X>3164</X><Y>1748</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -30874,7 +31226,7 @@ main.отпр15=отпрАб5;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ tekEmkBuferVx+=entity.dlina;]]></Code>
+								<Code><![CDATA[ tekEmkBuferVx+=agent.dlina;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -30883,7 +31235,7 @@ main.отпр15=отпрАб5;]]></Code>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[ tekEmkBuferVx-=entity.dlina;]]></Code>
+								<Code><![CDATA[ tekEmkBuferVx-=agent.dlina;]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -30936,9 +31288,9 @@ main.отпр15=отпрАб5;]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737913813</Id>
+					<Id>1781910620869</Id>
 					<Name><![CDATA[selectOutput4]]></Name>
-					<X>2014</X><Y>1371</Y>
+					<X>2724</X><Y>2198</Y>
 					<Label><X>-44</X><Y>-24</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -30964,25 +31316,25 @@ main.отпр15=отпрАб5;]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==1]]></Code>
+								<Code><![CDATA[agent.numKat==1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==2]]></Code>
+								<Code><![CDATA[agent.numKat==2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==3]]></Code>
+								<Code><![CDATA[agent.numKat==3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numKat==4]]></Code>
+								<Code><![CDATA[agent.numKat==4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -31108,9 +31460,9 @@ main.editbox4.setText(main.
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737913834</Id>
+					<Id>1781910620890</Id>
 					<Name><![CDATA[selectOutput6]]></Name>
-					<X>2464</X><Y>1541</Y>
+					<X>3174</X><Y>2368</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -31136,20 +31488,26 @@ main.editbox4.setText(main.
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==5]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==5]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==6]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==6]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[false]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[probability1]]></Name>
@@ -31183,6 +31541,13 @@ true);]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[отАб6++;
+main.кПрСп61=отАб6/main.
+отпр61;
+main.КПрСп61.setText(main.кПрСп61,
+true);]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit3]]></Name>
@@ -31234,9 +31599,9 @@ true);]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737913855</Id>
+					<Id>1781910620911</Id>
 					<Name><![CDATA[selectOutput5]]></Name>
-					<X>2214</X><Y>1531</Y>
+					<X>2924</X><Y>2358</Y>
 					<Label><X>-45</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -31262,25 +31627,25 @@ true);]]></Code>
 						<Parameter>
 							<Name><![CDATA[condition1]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==1]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==1]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition2]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==2]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==2]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition3]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==3]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==3]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[entity.numAbOtpr==4]]></Code>
+								<Code><![CDATA[agent.numAbOtpr==4]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -31306,12 +31671,6 @@ true);]]></Code>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit1]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[отАб1++;
-main.кПрСп16=отАб1/main.отпр16;
-main.КПрСп16.setText(main.кПрСп16,
-true);]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit2]]></Name>
@@ -31327,7 +31686,8 @@ true);]]></Code>
 							<Value Class="CodeValue">
 								<Code><![CDATA[отАб3++;
 main.кПрСп31=отАб3/main.отпр31;
-main.КП]]></Code>
+main.КПрСп31.setText(main.кПрСп31,
+true);]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -31383,9 +31743,9 @@ true);]]></Code>
 					</QuantityColumn>
 				</EmbeddedObject>
 				<EmbeddedObject>
-					<Id>1781737913876</Id>
+					<Id>1781910620932</Id>
 					<Name><![CDATA[sink2]]></Name>
-					<X>2694</X><Y>1441</Y>
+					<X>3404</X><Y>2268</Y>
 					<Label><X>-15</X><Y>-25</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -31405,7 +31765,7 @@ true);]]></Code>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[врПередачи.add(time()-entity.timeOtpr);
+								<Code><![CDATA[врПередачи.add(time()-agent.timeOtpr);
 editbox11.setText(врПередачи.mean(),
 true);
 editbox12.setText(врПередачи.max(),
@@ -31417,7 +31777,7 @@ main.коэфПропСпособ=main.
 main.editbox10.setText(main.
 коэфПропСпособ, true);
 main.врПередСооб.add(time()-
-entity.timeOtpr);
+agent.timeOtpr);
 main.editbox11.setText(main.
 врПередСооб.mean(), true);
 main.editbox12.setText(main.
@@ -31486,11 +31846,11 @@ main.editbox13.setText(main.
 
 			<Presentation>
 				<Text>
-					<Id>1781737913608</Id>
+					<Id>1781910620664</Id>
 					<Name><![CDATA[text20]]></Name>
-					<X>1794</X><Y>741</Y>
+					<X>2504</X><Y>1568</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
@@ -31507,9 +31867,9 @@ main.editbox13.setText(main.
 					<Alignment>LEFT</Alignment>
 				</Text>
 				<Rectangle>
-					<Id>1781737913610</Id>
+					<Id>1781910620666</Id>
 					<Name><![CDATA[rectangle]]></Name>
-					<X>1184</X><Y>691</Y>
+					<X>1894</X><Y>1518</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -31529,9 +31889,9 @@ main.editbox13.setText(main.
 					<FillMaterial>null</FillMaterial>
 				</Rectangle>
 				<RoundedRectangle>
-					<Id>1781737913612</Id>
+					<Id>1781910620668</Id>
 					<Name><![CDATA[roundRectangle1]]></Name>
-					<X>2094</X><Y>851</Y>
+					<X>2804</X><Y>1678</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -31552,11 +31912,11 @@ main.editbox13.setText(main.
 					<ArcRadius>10</ArcRadius>
 				</RoundedRectangle>
 				<Text>
-					<Id>1781737913614</Id>
+					<Id>1781910620670</Id>
 					<Name><![CDATA[text19]]></Name>
-					<X>1649</X><Y>766</Y>
+					<X>2359</X><Y>1593</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
+					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D</DrawMode>
