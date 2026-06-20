@@ -1,0 +1,7 @@
+database/*.data
+database/*.backup
+database/*.lck
+database/*.log
+database/*.properties
+database/*.script
+*.autosave
