@@ -26686,8 +26686,8 @@ main.editbox4.setText(main.
 							<Name><![CDATA[onExit1]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[отАб5++;
-main.кПрСп51=отАб5/main. отпр51;
-main.КПрСп51.setText(main.кПрСп51,
+main.кПрСп54=отАб5/main. отпр54;
+main.КПрСп54.setText(main.кПрСп54,
 true);]]></Code>
 							</Value>
 						</Parameter>
@@ -26695,9 +26695,9 @@ true);]]></Code>
 							<Name><![CDATA[onExit2]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[отАб6++;
-main.кПрСп61=отАб6/main.
-отпр61;
-main.КПрСп61.setText(main.кПрСп61,
+main.кПрСп64=отАб6/main.
+отпр64;
+main.КПрСп64.setText(main.кПрСп64,
 true);]]></Code>
 							</Value>
 						</Parameter>
@@ -33385,17 +33385,17 @@ true);]]></Code>
 							<Name><![CDATA[onExit3]]></Name>
 							<Value Class="CodeValue">
 								<Code><![CDATA[отАб3++;
-main.кПрСп35=отАб3/main.отпр35;
-main.КПрСп35.setText(main.кПрСп35,
+main.кПрСп36=отАб3/main.отпр36;
+main.КПрСп36.setText(main.кПрСп36,
 true);]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit4]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[отАб3++;
-main.кПрСп36=отАб3/main.отпр36;
-main.КПрСп36.setText(main.кПрСп36,
+								<Code><![CDATA[отАб4++;
+main.кПрСп46=отАб4/main.отпр46;
+main.КПрСп46.setText(main.кПрСп46,
 true);]]></Code>
 							</Value>
 						</Parameter>
