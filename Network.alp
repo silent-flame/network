@@ -25,6 +25,115 @@
 		<ActiveObjectClass>
 			<Id>1781275634455</Id>
 			<Name><![CDATA[Main]]></Name>
+			<Import><![CDATA[import java.sql.Connection;
+import java.sql.SQLException;]]></Import>
+			<StartupCode><![CDATA[
+try {
+    // Получаем соединение с внешней БД (PostgreSQL) и встроенной HSQLDB
+    Connection sourceConnection = postgreInput.getConnection();
+    Connection targetConnection = getEngine().getModelDatabase().getConnection();
+    
+    // Импортируем данные из PostgreSQL во встроенную БД
+    // Параметры: (соединение, имя_таблицы_в_Postgres, имя_таблицы_в_HSQLDB, очистить_цель, autoCommit)
+   // getEngine().getModelDatabase().importFromExternalDB(
+  //      sourceConnection, 
+   //     "schedule_data",    // имя таблицы в PostgreSQL
+  //      "db_schedule",      // имя таблицы во встроенной БД
+   //     true,               // очистить целевую таблицу перед импортом
+  //      false               // не использовать автокоммит
+   // );
+    
+    // Фиксируем транзакцию
+    targetConnection.commit();
+    traceln("Data imported successfully from PostgreSQL!");
+    
+} catch (Exception e) {
+    traceln("Error importing data: " + e.getMessage());
+    e.printStackTrace();
+ /**   // Откатываем в случае ошибки
+    try {
+        //targetConnection.rollback();
+    } catch (SQLException ex) {
+        ex.printStackTrace();
+    }
+} finally {
+    try {
+        //targetConnection.setAutoCommit(true);
+    } catch (SQLException e) {
+        e.printStackTrace();
+    } **/
+}]]></StartupCode>
+			<DestroyCode><![CDATA[
+try {
+    // Получаем соединение с PostgreSQL
+    Connection pgConnection = postgreInput.getConnection(); // Ваш элемент Database для PostgreSQL
+    ModelDatabase modelDB = getEngine().getModelDatabase();
+    
+    // 1. Системные таблицы
+    modelDB.exportToExternalDB("AL_CONFIGURATION", pgConnection, "al_configuration", true, false);
+    modelDB.exportToExternalDB("AL_CUSTOM_TYPE", pgConnection, "al_custom_type", true, false);
+    modelDB.exportToExternalDB("AL_DB_OBJECTS", pgConnection, "al_db_objects", true, false);
+    modelDB.exportToExternalDB("AL_GROUPS", pgConnection, "al_groups", true, false);
+    modelDB.exportToExternalDB("AL_SELECTED_LOG_OBJECTS", pgConnection, "al_selected_log_objects", true, false);
+    modelDB.exportToExternalDB("AL_TABLES", pgConnection, "al_tables", true, false);
+    modelDB.exportToExternalDB("AL_VIEWS", pgConnection, "al_views", true, false);
+    
+    // 2. Агенты и типы агентов
+    modelDB.exportToExternalDB("AGENT_TYPES_RAW_LOG", pgConnection, "agent_types_raw_log", true, false);
+    modelDB.exportToExternalDB("AGENTS_RAW_LOG", pgConnection, "agents_raw_log", true, false);
+    modelDB.exportToExternalDB("AGENT_ELEMENTS_RAW_LOG", pgConnection, "agent_elements_raw_log", true, false);
+    modelDB.exportToExternalDB("AGENT_PARAMETERS_RAW_LOG", pgConnection, "agent_parameters_raw_log", true, false);
+    modelDB.exportToExternalDB("AGENT_TYPE_ELEMENTS_RAW_LOG", pgConnection, "agent_type_elements_raw_log", true, false);
+    modelDB.exportToExternalDB("AGENT_TYPE_STATECHARTS_RAW_LOG", pgConnection, "agent_type_statecharts_raw_log", true, false);
+    modelDB.exportToExternalDB("DESTROYED_AGENTS_RAW_LOG", pgConnection, "destroyed_agents_raw_log", true, false);
+    
+    // 3. Состояния и переходы
+    modelDB.exportToExternalDB("STATECHART_STATES_RAW_LOG", pgConnection, "statechart_states_raw_log", true, false);
+    modelDB.exportToExternalDB("STATECHART_TRANSITIONS_RAW_LOG", pgConnection, "statechart_transitions_raw_log", true, false);
+    
+    // 4. Процессы (Flowchart)
+    modelDB.exportToExternalDB("FLOWCHART_ENTRIES_RAW_LOG", pgConnection, "flowchart_entries_raw_log", true, false);
+    modelDB.exportToExternalDB("FLOWCHART_PROCESS_STATES_RAW_LOG", pgConnection, "flowchart_process_states_raw_log", true, false);
+    
+    // 5. Сообщения и движение агентов
+    modelDB.exportToExternalDB("AGENT_MESSAGES_RAW_LOG", pgConnection, "agent_messages_raw_log", true, false);
+    modelDB.exportToExternalDB("AGENT_MOVEMENT_RAW_LOG", pgConnection, "agent_movement_raw_log", true, false);
+    
+    // 6. События
+    modelDB.exportToExternalDB("EVENTS_RAW_LOG", pgConnection, "events_raw_log", true, false);
+    
+    // 7. Статистика
+    modelDB.exportToExternalDB("STATISTICS_RAW_LOG", pgConnection, "statistics_raw_log", true, false);
+    modelDB.exportToExternalDB("DATASETS_RAW_LOG", pgConnection, "datasets_raw_log", true, false);
+    modelDB.exportToExternalDB("HISTOGRAMS_RAW_LOG", pgConnection, "histograms_raw_log", true, false);
+    
+    // 8. Трассировка (пользовательские логи)
+    modelDB.exportToExternalDB("TRACE_RAW_LOG", pgConnection, "trace_raw_log", true, false);
+    
+    // 9. Ресурсы
+    modelDB.exportToExternalDB("RESOURCE_POOL_UTILIZATION_RAW_LOG", pgConnection, "resource_pool_utilization_raw_log", true, false);
+    modelDB.exportToExternalDB("RESOURCE_UNIT_STATES_RAW_LOG", pgConnection, "resource_unit_states_raw_log", true, false);
+    modelDB.exportToExternalDB("RESOURCE_UNIT_UTILIZATION_RAW_LOG", pgConnection, "resource_unit_utilization_raw_log", true, false);
+    
+    // Фиксируем транзакцию
+    pgConnection.commit();
+    traceln("All log tables exported successfully to PostgreSQL!");
+    
+} catch (SQLException e) {
+    traceln("Error exporting data: " + e.getMessage());
+    e.printStackTrace();
+ /**   try {
+        //pgConnection.rollback();
+    } catch (SQLException ex) {
+        ex.printStackTrace();
+    }
+} finally {
+    try {
+        //pgConnection.setAutoCommit(true);
+    } catch (SQLException e) {
+        e.printStackTrace();
+    }**/
+}]]></DestroyCode>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1781275634453</Id>
@@ -2172,6 +2281,25 @@
 					<Title><![CDATA[]]></Title>
 				</HistogramData>
 			</AnalysisData>
+			<Connectivity>
+				<Database>
+					<Id>1782347197871</Id>
+					<Name><![CDATA[postgreInput]]></Name>
+					<X>130</X><Y>120</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<DatabaseType>OTHER</DatabaseType>
+					<ConnectionURL><![CDATA[jdbc:postgresql://localhost:5432/external_model_db]]></ConnectionURL>
+					<ConnectOnStartup>true</ConnectOnStartup>
+					<DatabaseName><![CDATA[]]></DatabaseName>
+					<Host><![CDATA[localhost]]></Host>
+					<JdbcDriverClassName><![CDATA[org.postgresql.Driver]]></JdbcDriverClassName>
+					<Login><![CDATA[modeluser]]></Login>
+					<Password><![CDATA[modelpassword]]></Password>
+				</Database>
+			</Connectivity>
 			<AgentLinks>
 				<AgentLink>
 					<Id>1781275634450</Id>
@@ -37933,6 +38061,11 @@ public class Message extends Entity implements Serializable {
 			<ReferencedFromUserCode>false</ReferencedFromUserCode>
 			<Location>FILE_SYSTEM</Location>
 		</Resource>
+		<Resource>
+			<Path><![CDATA[postgres/postgresql-42.7.11.jar]]></Path>
+			<ReferencedFromUserCode>false</ReferencedFromUserCode>
+			<Location>FILE_SYSTEM</Location>
+		</Resource>
 	</ModelResources>
     <RequiredLibraryReference>
 		<LibraryName><![CDATA[com.anylogic.libraries.modules.markup_descriptors]]></LibraryName>
@@ -37946,5 +38079,13 @@ public class Message extends Entity implements Serializable {
 		<VersionMinor>0</VersionMinor>
 		<VersionBuild>5</VersionBuild>
     </RequiredLibraryReference>
+	<ClassPathEntry>
+		<ResourceReference>
+			<PackageName><![CDATA[network]]></PackageName>
+			<ClassName><![CDATA[postgres/postgresql-42.7.11.jar]]></ClassName>
+		</ResourceReference>
+		<Imported>false</Imported>
+		<Folder>false</Folder>
+	</ClassPathEntry>
 </Model>
 </AnyLogicWorkspace>
