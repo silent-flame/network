@@ -25,10 +25,23 @@
 		<ActiveObjectClass>
 			<Id>1781275634455</Id>
 			<Name><![CDATA[Main]]></Name>
+			<AdditionalClassCode><![CDATA[
+
+public Dimension getKolKatDimension() {
+    try {
+       return KolKat;
+        
+    } catch (Exception e) {
+        // Игнорируем, используем fallback
+    }
+    return null;
+}]]></AdditionalClassCode>
 			<Import><![CDATA[import java.sql.Connection;
 import java.sql.SQLException;]]></Import>
 			<StartupCode><![CDATA[
 try {
+
+
     // Получаем соединение с PostgreSQL
     Connection pgConn = postgreInput.getConnection();
     
@@ -6938,119 +6951,171 @@ try {
 			<Name><![CDATA[Абонент]]></Name>
 			<AdditionalClassCode><![CDATA[/**
  * Загружает параметры для текущего абонента из PostgreSQL
- * @param pgConn Соединение с PostgreSQL
- * @param numAbonent Номер абонента (1-6)
+ * 
+ * @param pgConn
+ *            Соединение с PostgreSQL
+ * @param numAbonent
+ *            Номер абонента (1-6)
  */
-public void loadAbonentParameters(Connection pgConn, int numAbonent) {
-    PreparedStatement pstmt = null;
-    ResultSet rs = null;
-    
-    try {
-        // Подготовленный запрос с параметром
-        String sql = 
-            "SELECT abonent_type, kol_abonent, time_abonent, kol_prog, num_abonent, " +
-            "emk_bufer_vx, ver_kat_1, ver_kat_2, ver_kat_3, ver_kat_4, " +
-            "dl_kat_1, dl_kat_2, dl_kat_3, dl_kat_4, " +
-            "dl_kat_o_1, dl_kat_o_2, dl_kat_o_3, dl_kat_o_4 " +
-            "FROM config.abonents " +
-            "WHERE num_abonent = ?";
-        
-        pstmt = pgConn.prepareStatement(sql);
-        pstmt.setInt(1, numAbonent);  // Устанавливаем параметр
-        
-        rs = pstmt.executeQuery();
-        
-        // Если запись найдена - загружаем параметры
-        if (rs.next()) {
-            String abonentType = rs.getString("abonent_type");
-            
-            // Устанавливаем простые параметры
-            this.set_kolAbonent(rs.getDouble("kol_abonent"));
-            this.set_timeAbonent(rs.getDouble("time_abonent"));
-            this.set_kolProg(rs.getDouble("kol_prog"));
-            this.set_numAbonent(rs.getInt("num_abonent"));
-            this.set_emkBuferVx(rs.getInt("emk_bufer_vx"));
-            
-            // Устанавливаем HyperArray параметры
-            this.set_verKat(createVerKatArray(rs));
-            this.set_dlKat(createDlKatArray(rs));
-            this.set_dlKatO(createDlKatOArray(rs));
-            
-            traceln("Parameters loaded for " + abonentType + " (num=" + numAbonent + ")");
-        } else {
-            traceln("WARNING: Abonent with num=" + numAbonent + " not found in database");
-        }
-        
-    } catch (Exception e) {
-        traceln("Error loading abonent parameters for num=" + numAbonent + ": " + e.getMessage());
-        e.printStackTrace();
-    } finally {
-        // Закрываем ресурсы
-        try { if (rs != null) rs.close(); } catch (Exception e) {}
-        try { if (pstmt != null) pstmt.close(); } catch (Exception e) {}
-    }
+public void loadAbonentParameters(Connection pgConn,
+		int numAbonent) {
+	java.sql.PreparedStatement pstmt = null;
+	java.sql.ResultSet rs = null;
+
+	try {
+		// Подготовленный запрос с параметром
+		String sql = "SELECT abonent_type, kol_abonent, time_abonent, kol_prog, num_abonent, "
+				+ "emk_bufer_vx, ver_kat_1, ver_kat_2, ver_kat_3, ver_kat_4, "
+				+ "dl_kat_1, dl_kat_2, dl_kat_3, dl_kat_4, "
+				+ "dl_kat_o_1, dl_kat_o_2, dl_kat_o_3, dl_kat_o_4 "
+				+ "FROM config.abonents "
+				+ "WHERE num_abonent = ?";
+
+		pstmt = pgConn.prepareStatement(sql);
+		pstmt.setInt(1, numAbonent); // Устанавливаем
+										// параметр
+
+		rs = pstmt.executeQuery();
+
+		// Если запись найдена - загружаем параметры
+		if (rs.next()) {
+			String abonentType = rs
+					.getString("abonent_type");
+
+			// Устанавливаем простые параметры
+			this.set_kolAbonent(
+					rs.getDouble("kol_abonent"));
+			this.set_timeAbonent(
+					rs.getDouble("time_abonent"));
+			this.set_kolProg(rs.getDouble("kol_prog"));
+			this.set_numAbonent(rs.getInt("num_abonent"));
+			this.set_emkBuferVx(rs.getInt("emk_bufer_vx"));
+
+			// Устанавливаем HyperArray параметры
+			this.set_verKat(createVerKatArray(rs));
+			this.set_dlKat(createDlKatArray(rs));
+			this.set_dlKatO(createDlKatOArray(rs));
+
+			traceln("Parameters loaded for " + abonentType
+					+ " (num=" + numAbonent + ")");
+		} else {
+			traceln("WARNING: Abonent with num="
+					+ numAbonent
+					+ " not found in database");
+		}
+
+	} catch (Exception e) {
+		traceln("Error loading abonent parameters for num="
+				+ numAbonent + ": " + e.getMessage());
+		e.printStackTrace();
+	} finally {
+		// Закрываем ресурсы
+		try {
+			if (rs != null)
+				rs.close();
+		} catch (Exception e) {
+		}
+		try {
+			if (pstmt != null)
+				pstmt.close();
+		} catch (Exception e) {
+		}
+	}
 }
 
 /**
- * Создает HyperArray для вероятностей категорий
+ * Получает размерность KolKat из модели
  */
-private HyperArray createVerKatArray(ResultSet rs) throws Exception {
-    double[] values = {
-        rs.getDouble("ver_kat_1"),
-        rs.getDouble("ver_kat_2"),
-        rs.getDouble("ver_kat_3"),
-        rs.getDouble("ver_kat_4")
-    };
-    // Получаем размерность KolKat
-    Dimension dim = getEngine().getDimension("network.KolKat");
-    if (dim == null) {
-        traceln("WARNING: Dimension 'network.KolKat' not found!");
-        return new HyperArray(values);
-    }
-    return new HyperArray(values, dim);
+private Dimension getKolKatDimension() {
+	try {
+		Main root = (Main) getRootAgent();
+		return root.getKolKatDimension();
+	//	return main.KolKat; ;
+	} catch (Exception e) {
+		traceln("Error getting dimension: "
+				+ e.getMessage());
+	}
+	return null;
 }
 
 /**
- * Создает HyperArray для длин категорий
+ * Creates HyperArray for category probabilities
  */
-private HyperArray createDlKatArray(ResultSet rs) throws Exception {
-    int[] values = {
-        rs.getInt("dl_kat_1"),
-        rs.getInt("dl_kat_2"),
-        rs.getInt("dl_kat_3"),
-        rs.getInt("dl_kat_4")
-    };
-    Dimension dim = getEngine().getDimension("network.KolKat");
-    if (dim == null) {
-        return new HyperArray(values);
-    }
-    return new HyperArray(values, dim);
+private HyperArray createVerKatArray(java.sql.ResultSet rs)
+		throws Exception {
+	// Получаем размерность KolKat
+	Dimension dim = getKolKatDimension();
+
+	if (dim != null) {
+		HyperArray ha = new HyperArray(dim);
+		ha.set(rs.getDouble("ver_kat_1"), 1);
+		ha.set(rs.getDouble("ver_kat_2"), 2);
+		ha.set(rs.getDouble("ver_kat_3"), 3);
+		ha.set(rs.getDouble("ver_kat_4"), 4);
+		return ha;
+	} else {
+		traceln("WARNING: Dimension 'KolKat' not found!");
+		// Создаём с размерностью по умолчанию (одномерный
+		// массив)
+		/**
+		 * return new HyperArray(new double[]{
+		 * rs.getDouble("ver_kat_1"),
+		 * rs.getDouble("ver_kat_2"),
+		 * rs.getDouble("ver_kat_3"),
+		 * rs.getDouble("ver_kat_4") }, 1, 4); // 1
+		 * измерение, 4 элемента
+		 **/
+		return null;
+	}
 }
 
 /**
- * Создает HyperArray для отклонений длин категорий
+ * Creates HyperArray for category lengths
  */
-private HyperArray createDlKatOArray(ResultSet rs) throws Exception {
-    int[] values = {
-        rs.getInt("dl_kat_o_1"),
-        rs.getInt("dl_kat_o_2"),
-        rs.getInt("dl_kat_o_3"),
-        rs.getInt("dl_kat_o_4")
-    };
-    Dimension dim = getEngine().getDimension("network.KolKat");
-    if (dim == null) {
-        return new HyperArray(values);
-    }
-    return new HyperArray(values, dim);
+private HyperArray createDlKatArray(java.sql.ResultSet rs)
+		throws Exception {
+	Dimension dim = getKolKatDimension();
+
+	// Создаём HyperArray с указанной размерностью
+	HyperArray ha = new HyperArray(dim);
+
+	// Устанавливаем значения по индексам (индексация с 1)
+	ha.set(rs.getInt("dl_kat_1"), 1);
+	ha.set(rs.getInt("dl_kat_2"), 2);
+	ha.set(rs.getInt("dl_kat_3"), 3);
+	ha.set(rs.getInt("dl_kat_4"), 4);
+
+	return ha;
+
 }
 
+/**
+ * Creates HyperArray for category length deviations
+ */
+private HyperArray createDlKatOArray(java.sql.ResultSet rs)
+		throws Exception {
+	Dimension dim = getKolKatDimension();
 
-
-
+	if (dim != null) {
+		HyperArray ha = new HyperArray(dim);
+		ha.set(rs.getInt("dl_kat_o_1"), 1);
+		ha.set(rs.getInt("dl_kat_o_2"), 2);
+		ha.set(rs.getInt("dl_kat_o_3"), 3);
+		ha.set(rs.getInt("dl_kat_o_4"), 4);
+		return ha;
+	} else {
+		traceln("WARNING: Dimension 'KolKat' not found!");
+		/**
+		 * return new HyperArray(new double[]{
+		 * rs.getInt("dl_kat_o_1"), rs.getInt("dl_kat_o_2"),
+		 * rs.getInt("dl_kat_o_3"), rs.getInt("dl_kat_o_4")
+		 * }, 1, 4);
+		 **/
+		return null;
+	}
+}
 ]]></AdditionalClassCode>
 			<Import><![CDATA[import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.PreparedStatement;
 import java.util.HashMap;
 import java.util.Map;]]></Import>
 			<Generic>false</Generic>
@@ -7731,7 +7796,7 @@ import java.util.Map;]]></Import>
 							<ClassName><![CDATA[KolKat]]></ClassName>
 						</Dimension>
 						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[{53000,86000,66000,50000}]]></Code>
+							<Code><![CDATA[{53000, 86000, 66000, 50000}]]></Code>
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1781280477475</Id>
@@ -7759,7 +7824,7 @@ import java.util.Map;]]></Import>
 							<ClassName><![CDATA[KolKat]]></ClassName>
 						</Dimension>
 						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[{6100,5000,7000,500}]]></Code>
+							<Code><![CDATA[{6100, 5000, 7000, 500}]]></Code>
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1781280493240</Id>
@@ -8703,8 +8768,8 @@ import java.util.Map;]]></Import>
  * @param channelId Идентификатор канала (канал1, канал2, ...)
  */
 public void loadChannelParameters(Connection pgConn, String channelId) {
-    PreparedStatement pstmt = null;
-    ResultSet rs = null;
+    java.sql.PreparedStatement pstmt = null;
+    java.sql.ResultSet rs = null;
     
     try {
         String sql = 
@@ -8738,9 +8803,7 @@ public void loadChannelParameters(Connection pgConn, String channelId) {
         try { if (pstmt != null) pstmt.close(); } catch (Exception e) {}
     }
 }]]></AdditionalClassCode>
-			<Import><![CDATA[import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;]]></Import>
+			<Import><![CDATA[import java.sql.Connection;]]></Import>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1781276759037</Id>
@@ -10249,8 +10312,8 @@ Message m = основной_канал.get(0);
  * @param routerId Идентификатор маршрутизатора (маршрут1, маршрут2)
  */
 public void loadRouterParameters(Connection pgConn, String routerId) {
-    PreparedStatement pstmt = null;
-    ResultSet rs = null;
+    java.sql.PreparedStatement pstmt = null;
+    java.sql.ResultSet rs = null;
     
     try {
         String sql = 
@@ -10289,8 +10352,7 @@ public void loadRouterParameters(Connection pgConn, String routerId) {
     }
 }]]></AdditionalClassCode>
 			<Import><![CDATA[import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;]]></Import>
+]]></Import>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1781276780108</Id>
@@ -34146,8 +34208,8 @@ main.editbox13.setText(main.
  * @param routerId Идентификатор маршрутизатора (маршрут1, маршрут2)
  */
 public void loadRouterParameters(Connection pgConn, String routerId) {
-    PreparedStatement pstmt = null;
-    ResultSet rs = null;
+   java.sql.PreparedStatement pstmt = null;
+    java.sql.ResultSet rs = null;
     
     try {
         String sql = 
@@ -34186,8 +34248,7 @@ public void loadRouterParameters(Connection pgConn, String routerId) {
     }
 }]]></AdditionalClassCode>
 			<Import><![CDATA[import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;]]></Import>
+]]></Import>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1781745810994</Id>
