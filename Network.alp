@@ -29,39 +29,40 @@
 import java.sql.SQLException;]]></Import>
 			<StartupCode><![CDATA[
 try {
-    // Получаем соединение с внешней БД (PostgreSQL) и встроенной HSQLDB
-    Connection sourceConnection = postgreInput.getConnection();
-    Connection targetConnection = getEngine().getModelDatabase().getConnection();
+    // Получаем соединение с PostgreSQL
+    Connection pgConn = postgreInput.getConnection();
     
-    // Импортируем данные из PostgreSQL во встроенную БД
-    // Параметры: (соединение, имя_таблицы_в_Postgres, имя_таблицы_в_HSQLDB, очистить_цель, autoCommit)
-   // getEngine().getModelDatabase().importFromExternalDB(
-  //      sourceConnection, 
-   //     "schedule_data",    // имя таблицы в PostgreSQL
-  //      "db_schedule",      // имя таблицы во встроенной БД
-   //     true,               // очистить целевую таблицу перед импортом
-  //      false               // не использовать автокоммит
-   // );
+    // Загружаем параметры для каждого абонента
+    абонент1.loadAbonentParameters(pgConn, 1);
+    абонент2.loadAbonentParameters(pgConn, 2);
+    абонент3.loadAbonentParameters(pgConn, 3);
+    абонент4.loadAbonentParameters(pgConn, 4);
+    абонент5.loadAbonentParameters(pgConn, 5);
+    абонент6.loadAbonentParameters(pgConn, 6);
     
-    // Фиксируем транзакцию
-    targetConnection.commit();
-    traceln("Data imported successfully from PostgreSQL!");
+    // Загружаем параметры для каждого канала
+    канал1.loadChannelParameters(pgConn, "канал1");
+    канал2.loadChannelParameters(pgConn, "канал2");
+    канал3.loadChannelParameters(pgConn, "канал3");
+    канал4.loadChannelParameters(pgConn, "канал4");
+    канал5.loadChannelParameters(pgConn, "канал5");
+    канал6.loadChannelParameters(pgConn, "канал6");
+    канал7.loadChannelParameters(pgConn, "канал7");
+    канал8.loadChannelParameters(pgConn, "канал8");
+    канал9.loadChannelParameters(pgConn, "канал9");
+    канал10.loadChannelParameters(pgConn, "канал10");
+    канал11.loadChannelParameters(pgConn, "канал11");
+    канал12.loadChannelParameters(pgConn, "канал12");
+    
+    // Загружаем параметры для каждого маршрутизатора
+    маршрут1.loadRouterParameters(pgConn, "маршрут1");
+    маршрут2.loadRouterParameters(pgConn, "маршрут2");
+    
+    traceln("All model parameters loaded from PostgreSQL successfully!");
     
 } catch (Exception e) {
-    traceln("Error importing data: " + e.getMessage());
+    traceln("Error loading parameters: " + e.getMessage());
     e.printStackTrace();
- /**   // Откатываем в случае ошибки
-    try {
-        //targetConnection.rollback();
-    } catch (SQLException ex) {
-        ex.printStackTrace();
-    }
-} finally {
-    try {
-        //targetConnection.setAutoCommit(true);
-    } catch (SQLException e) {
-        e.printStackTrace();
-    } **/
 }]]></StartupCode>
 			<DestroyCode><![CDATA[
 try {
@@ -6935,6 +6936,123 @@ try {
 		<ActiveObjectClass>
 			<Id>1781276356721</Id>
 			<Name><![CDATA[Абонент]]></Name>
+			<AdditionalClassCode><![CDATA[/**
+ * Загружает параметры для текущего абонента из PostgreSQL
+ * @param pgConn Соединение с PostgreSQL
+ * @param numAbonent Номер абонента (1-6)
+ */
+public void loadAbonentParameters(Connection pgConn, int numAbonent) {
+    PreparedStatement pstmt = null;
+    ResultSet rs = null;
+    
+    try {
+        // Подготовленный запрос с параметром
+        String sql = 
+            "SELECT abonent_type, kol_abonent, time_abonent, kol_prog, num_abonent, " +
+            "emk_bufer_vx, ver_kat_1, ver_kat_2, ver_kat_3, ver_kat_4, " +
+            "dl_kat_1, dl_kat_2, dl_kat_3, dl_kat_4, " +
+            "dl_kat_o_1, dl_kat_o_2, dl_kat_o_3, dl_kat_o_4 " +
+            "FROM config.abonents " +
+            "WHERE num_abonent = ?";
+        
+        pstmt = pgConn.prepareStatement(sql);
+        pstmt.setInt(1, numAbonent);  // Устанавливаем параметр
+        
+        rs = pstmt.executeQuery();
+        
+        // Если запись найдена - загружаем параметры
+        if (rs.next()) {
+            String abonentType = rs.getString("abonent_type");
+            
+            // Устанавливаем простые параметры
+            this.set_kolAbonent(rs.getDouble("kol_abonent"));
+            this.set_timeAbonent(rs.getDouble("time_abonent"));
+            this.set_kolProg(rs.getDouble("kol_prog"));
+            this.set_numAbonent(rs.getInt("num_abonent"));
+            this.set_emkBuferVx(rs.getInt("emk_bufer_vx"));
+            
+            // Устанавливаем HyperArray параметры
+            this.set_verKat(createVerKatArray(rs));
+            this.set_dlKat(createDlKatArray(rs));
+            this.set_dlKatO(createDlKatOArray(rs));
+            
+            traceln("Parameters loaded for " + abonentType + " (num=" + numAbonent + ")");
+        } else {
+            traceln("WARNING: Abonent with num=" + numAbonent + " not found in database");
+        }
+        
+    } catch (Exception e) {
+        traceln("Error loading abonent parameters for num=" + numAbonent + ": " + e.getMessage());
+        e.printStackTrace();
+    } finally {
+        // Закрываем ресурсы
+        try { if (rs != null) rs.close(); } catch (Exception e) {}
+        try { if (pstmt != null) pstmt.close(); } catch (Exception e) {}
+    }
+}
+
+/**
+ * Создает HyperArray для вероятностей категорий
+ */
+private HyperArray createVerKatArray(ResultSet rs) throws Exception {
+    double[] values = {
+        rs.getDouble("ver_kat_1"),
+        rs.getDouble("ver_kat_2"),
+        rs.getDouble("ver_kat_3"),
+        rs.getDouble("ver_kat_4")
+    };
+    // Получаем размерность KolKat
+    Dimension dim = getEngine().getDimension("network.KolKat");
+    if (dim == null) {
+        traceln("WARNING: Dimension 'network.KolKat' not found!");
+        return new HyperArray(values);
+    }
+    return new HyperArray(values, dim);
+}
+
+/**
+ * Создает HyperArray для длин категорий
+ */
+private HyperArray createDlKatArray(ResultSet rs) throws Exception {
+    int[] values = {
+        rs.getInt("dl_kat_1"),
+        rs.getInt("dl_kat_2"),
+        rs.getInt("dl_kat_3"),
+        rs.getInt("dl_kat_4")
+    };
+    Dimension dim = getEngine().getDimension("network.KolKat");
+    if (dim == null) {
+        return new HyperArray(values);
+    }
+    return new HyperArray(values, dim);
+}
+
+/**
+ * Создает HyperArray для отклонений длин категорий
+ */
+private HyperArray createDlKatOArray(ResultSet rs) throws Exception {
+    int[] values = {
+        rs.getInt("dl_kat_o_1"),
+        rs.getInt("dl_kat_o_2"),
+        rs.getInt("dl_kat_o_3"),
+        rs.getInt("dl_kat_o_4")
+    };
+    Dimension dim = getEngine().getDimension("network.KolKat");
+    if (dim == null) {
+        return new HyperArray(values);
+    }
+    return new HyperArray(values, dim);
+}
+
+
+
+
+]]></AdditionalClassCode>
+			<Import><![CDATA[import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.PreparedStatement;
+import java.util.HashMap;
+import java.util.Map;]]></Import>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1781276356719</Id>
@@ -8579,6 +8697,50 @@ try {
 		<ActiveObjectClass>
 			<Id>1781276759039</Id>
 			<Name><![CDATA[Канал]]></Name>
+			<AdditionalClassCode><![CDATA[/**
+ * Загружает параметры для текущего канала из PostgreSQL
+ * @param pgConn Соединение с PostgreSQL
+ * @param channelId Идентификатор канала (канал1, канал2, ...)
+ */
+public void loadChannelParameters(Connection pgConn, String channelId) {
+    PreparedStatement pstmt = null;
+    ResultSet rs = null;
+    
+    try {
+        String sql = 
+            "SELECT channel_id, stor_pered_kan, stor_pered_kan_r, " +
+            "time_otk_kan, time_vosst_kan, time_bkl_res_k " +
+            "FROM config.channels " +
+            "WHERE channel_id = ?";
+        
+        pstmt = pgConn.prepareStatement(sql);
+        pstmt.setString(1, channelId);
+        
+        rs = pstmt.executeQuery();
+        
+        if (rs.next()) {
+            this.set_storPeredKan(rs.getDouble("stor_pered_kan"));
+            this.set_storPeredKanR(rs.getDouble("stor_pered_kan_r"));
+            this.set_timeOtkKan(rs.getDouble("time_otk_kan"));
+            this.set_timeVosstKan(rs.getDouble("time_vosst_kan"));
+            this.set_timeBklResK(rs.getDouble("time_bkl_res_k"));
+            
+            traceln("Parameters loaded for channel: " + channelId);
+        } else {
+            traceln("WARNING: Channel with id=" + channelId + " not found in database");
+        }
+        
+    } catch (Exception e) {
+        traceln("Error loading channel parameters for " + channelId + ": " + e.getMessage());
+        e.printStackTrace();
+    } finally {
+        try { if (rs != null) rs.close(); } catch (Exception e) {}
+        try { if (pstmt != null) pstmt.close(); } catch (Exception e) {}
+    }
+}]]></AdditionalClassCode>
+			<Import><![CDATA[import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;]]></Import>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1781276759037</Id>
@@ -10081,6 +10243,54 @@ Message m = основной_канал.get(0);
 		<ActiveObjectClass>
 			<Id>1781276780110</Id>
 			<Name><![CDATA[Маршрутизатор]]></Name>
+			<AdditionalClassCode><![CDATA[/**
+ * Загружает параметры для текущего маршрутизатора из PostgreSQL
+ * @param pgConn Соединение с PostgreSQL
+ * @param routerId Идентификатор маршрутизатора (маршрут1, маршрут2)
+ */
+public void loadRouterParameters(Connection pgConn, String routerId) {
+    PreparedStatement pstmt = null;
+    ResultSet rs = null;
+    
+    try {
+        String sql = 
+            "SELECT router_id, emk_bufer_napr1, emk_bufer_napr2, " +
+            "emk_bufer_napr3, emk_bufer_napr4, emk_bufer1, " +
+            "time_otk_bk, time_vosst_bk, proizvod " +
+            "FROM config.routers " +
+            "WHERE router_id = ?";
+        
+        pstmt = pgConn.prepareStatement(sql);
+        pstmt.setString(1, routerId);
+        
+        rs = pstmt.executeQuery();
+        
+        if (rs.next()) {
+            this.set_emkBuferNapr1(rs.getInt("emk_bufer_napr1"));
+            this.set_emkBuferNapr2(rs.getInt("emk_bufer_napr2"));
+            this.set_emkBuferNapr3(rs.getInt("emk_bufer_napr3"));
+            this.set_emkBuferNapr4(rs.getInt("emk_bufer_napr4"));
+            this.set_emkBufer1(rs.getInt("emk_bufer1"));
+            this.set_timeOtkBK(rs.getDouble("time_otk_bk"));
+            this.set_timeVosstBK(rs.getDouble("time_vosst_bk"));
+            this.set_proizvod(rs.getDouble("proizvod"));
+            
+            traceln("Parameters loaded for router: " + routerId);
+        } else {
+            traceln("WARNING: Router with id=" + routerId + " not found in database");
+        }
+        
+    } catch (Exception e) {
+        traceln("Error loading router parameters for " + routerId + ": " + e.getMessage());
+        e.printStackTrace();
+    } finally {
+        try { if (rs != null) rs.close(); } catch (Exception e) {}
+        try { if (pstmt != null) pstmt.close(); } catch (Exception e) {}
+    }
+}]]></AdditionalClassCode>
+			<Import><![CDATA[import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;]]></Import>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1781276780108</Id>
@@ -33930,6 +34140,54 @@ main.editbox13.setText(main.
 		<ActiveObjectClass>
 			<Id>1781745810988</Id>
 			<Name><![CDATA[Маршрутизатор1]]></Name>
+			<AdditionalClassCode><![CDATA[/**
+ * Загружает параметры для текущего маршрутизатора из PostgreSQL
+ * @param pgConn Соединение с PostgreSQL
+ * @param routerId Идентификатор маршрутизатора (маршрут1, маршрут2)
+ */
+public void loadRouterParameters(Connection pgConn, String routerId) {
+    PreparedStatement pstmt = null;
+    ResultSet rs = null;
+    
+    try {
+        String sql = 
+            "SELECT router_id, emk_bufer_napr1, emk_bufer_napr2, " +
+            "emk_bufer_napr3, emk_bufer_napr4, emk_bufer1, " +
+            "time_otk_bk, time_vosst_bk, proizvod " +
+            "FROM config.routers " +
+            "WHERE router_id = ?";
+        
+        pstmt = pgConn.prepareStatement(sql);
+        pstmt.setString(1, routerId);
+        
+        rs = pstmt.executeQuery();
+        
+        if (rs.next()) {
+            this.set_emkBuferNapr1(rs.getInt("emk_bufer_napr1"));
+            this.set_emkBuferNapr2(rs.getInt("emk_bufer_napr2"));
+            this.set_emkBuferNapr3(rs.getInt("emk_bufer_napr3"));
+            this.set_emkBuferNapr4(rs.getInt("emk_bufer_napr4"));
+            this.set_emkBufer1(rs.getInt("emk_bufer1"));
+            this.set_timeOtkBK(rs.getDouble("time_otk_bk"));
+            this.set_timeVosstBK(rs.getDouble("time_vosst_bk"));
+            this.set_proizvod(rs.getDouble("proizvod"));
+            
+            traceln("Parameters loaded for router: " + routerId);
+        } else {
+            traceln("WARNING: Router with id=" + routerId + " not found in database");
+        }
+        
+    } catch (Exception e) {
+        traceln("Error loading router parameters for " + routerId + ": " + e.getMessage());
+        e.printStackTrace();
+    } finally {
+        try { if (rs != null) rs.close(); } catch (Exception e) {}
+        try { if (pstmt != null) pstmt.close(); } catch (Exception e) {}
+    }
+}]]></AdditionalClassCode>
+			<Import><![CDATA[import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;]]></Import>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1781745810994</Id>
